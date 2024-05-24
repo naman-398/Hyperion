@@ -20,11 +20,11 @@ const Roadmap = () => {
                         <div className=' flex flex-wrap pt-[60px] lg:pt-[50px] xl:pt-0 mx-[-12px] flex-col lg:flex-row relative items-center z-10 sm:pl-[50px] pl-8'>
                             <img src={web2} alt="web-img" aria-label='bg web in roadmap' className='absolute max-w-[1440px] z-[-1] top-[-20%] left-0' />
                             <div className=' md:w-10/12 w-full lg:w-6/12 px-3'>
-                                <div className='relative max-w-[64px]'><img src={icon1} alt="icon" />
-                                    <img src={icon4} alt="icon" aria-label='border left for icon' className=' absolute left-[-3px] top-[25%] timeline_blur' />
+                                <div className='relative max-w-[64px]'><img src={icon1} alt="icon" className=' w-[40px] h-[40px] sm:w-[64px] sm:h-[64px]'/>
+                                    <img src={icon4} alt="icon" aria-label='border left for icon' className=' absolute left-[-2px] top-[27%] sm:top-[25%] timeline_blur max-sm:w-[4px]' />
                                     <div className=' w-[50px] bg-lighting_yellow h-[1px] left-[-27px] sm:left-[-44px] timeline_blur shadow-[0_0_20px_1px_#F2C922] z-[-1] md:left-[-50px] absolute top-[50%]  xl:[top-7%]'></div>
                                 </div>
-                                <p className=' font-poppins text_gredient1 mt-6 text-transparent bg-clip-text font-medium text-[36px] sm:text-[40px] md:text-[40px] lg:text-[56px] md:leading-[45px] lg:leading-[56px] leading-[40px] sm:leading-[46px]  max-w-[500px]'>Join the Hyperion family</p>
+                                <p className=' font-poppins text_gredient1 mt-3 sm:mt-6 text-transparent bg-clip-text font-medium text-[36px] sm:text-[40px] md:text-[40px] lg:text-[56px] md:leading-[45px] lg:leading-[56px] leading-[40px] sm:leading-[46px]  max-w-[500px]'>Join the Hyperion family</p>
                                 <p className=' mt-4 md:mt-6 font-poppins text-snow_drift max-w-[618px] opacity-70 text-[16px] sm:text-[18px] leading-[23.4px] font-normal'>Embrace the Hyperion Revolution by joining a global community of new and seasoned traders who support each other. Share your wins, insights, and strategies, seek expert opinions, get feedback, and collaborate with like-minded traders.</p>
                             </div>
                             <div className="md:w-10/12 w-full lg:w-6/12 px-3">
@@ -34,11 +34,11 @@ const Roadmap = () => {
                         <div className=' flex flex-wrap mx-[-12px] flex-col lg:flex-row relative items-center z-10 sm:pl-[50px] pl-8'>
                             <img src={web} alt="web-img" aria-label='bg web in roadmap' className='absolute max-w-[1440px] h-[929px] z-[-1] top-[-30%] right-0' />
                             <div className=' md:w-10/12 w-full lg:w-6/12 px-3'>
-                                <div className='relative max-w-[64px]'><img src={icon2} alt="icon" />
-                                    <img src={icon4} alt="icon" aria-label='border left for icon' className=' absolute left-[-3px] top-[25%] timeline_blur' />
+                                <div className='relative max-w-[64px]'><img src={icon2} alt="icon" className=' w-[40px] h-[40px] sm:w-[64px] sm:h-[64px]'/>
+                                    <img src={icon4} alt="icon" aria-label='border left for icon' className=' absolute left-[-2px] top-[27%] sm:top-[25%] timeline_blur max-sm:w-[4px]' />
                                     <div className=' w-[50px] bg-lighting_yellow timeline_blur shadow-[0_0_20px_1px_#F2C922] h-[1px] left-[-27px] sm:left-[-44px] z-[-1] md:left-[-50px] absolute top-[50%]  xl:[top-7%]'></div>
                                 </div>
-                                <p className=' font-poppins text_gredient1 mt-6 text-transparent bg-clip-text font-medium text-[36px] sm:text-[40px] md:text-[40px] lg:text-[56px] md:leading-[45px] lg:leading-[56px] leading-[40px] sm:leading-[46px] max-w-[594px]'>Expert support, every step of the way</p>
+                                <p className=' font-poppins text_gredient1 mt-3 sm:mt-6 text-transparent bg-clip-text font-medium text-[36px] sm:text-[40px] md:text-[40px] lg:text-[56px] md:leading-[45px] lg:leading-[56px] leading-[40px] sm:leading-[46px] max-w-[594px]'>Expert support, every step of the way</p>
                                 <p className=' mt-4 md:mt-6 font-poppins text-snow_drift max-w-[618px] opacity-70 text-[16px] sm:text-[18px] leading-[23.4px] font-normal'>At Hyperion, our team of experts is dedicated to your success. Get personalized support  and guidance whenever you need it — whether it's about platform features or refining your trading strategy.</p>
                             </div>
                             <div className="md:w-10/12 w-full lg:w-6/12 px-3">
@@ -48,11 +48,11 @@ const Roadmap = () => {
                         <div className=' flex flex-wrap mx-[-12px] flex-col lg:flex-row relative items-center z-10 sm:pl-[50px] pl-8'>
                             <img src={web2} alt="web-img" aria-label='bg web in roadmap' className='absolute max-w-[1440px] z-[-1] top-[-20%] left-0' />
                             <div className=' md:w-10/12 w-full lg:w-6/12 px-3'>
-                                <div className='relative max-w-[64px]'><img src={icon3} alt="icon" />
-                                    <img src={icon4} alt="icon" aria-label='border left for icon' className=' absolute left-[-3px] top-[25%] timeline_blur' />
+                                <div className='relative max-w-[64px]'><img src={icon3} alt="icon" className=' w-[40px] h-[40px] sm:w-[64px] sm:h-[64px]'/>
+                                    <img src={icon4} alt="icon" aria-label='border left for icon' className=' absolute left-[-2px] top-[27%] sm:top-[25%] timeline_blur max-sm:w-[4px]' />
                                     <div className=' w-[50px] bg-lighting_yellow timeline_blur shadow-[0_0_20px_1px_#F2C922] h-[1px] left-[-27px] sm:left-[-44px] z-[-1] md:left-[-50px] absolute top-[50%]  xl:[top-7%]'></div>
                                 </div>
-                                <p className=' font-poppins text_gredient1 mt-6 text-transparent bg-clip-text font-medium  max-w-[478px] text-[36px] sm:text-[40px] md:text-[40px] lg:text-[56px] md:leading-[45px] lg:leading-[56px] leading-[40px] sm:leading-[46px]'>Ready to trade like a pro?</p>
+                                <p className=' font-poppins text_gredient1 mt-3 sm:mt-6 text-transparent bg-clip-text font-medium  max-w-[478px] text-[36px] sm:text-[40px] md:text-[40px] lg:text-[56px] md:leading-[45px] lg:leading-[56px] leading-[40px] sm:leading-[46px]'>Ready to trade like a pro?</p>
                                 <p className=' mt-4 md:mt-6 font-poppins text-snow_drift max-w-[618px] opacity-70 text-[16px] sm:text-[18px] leading-[23.4px] font-normal'>Up your trading game with Hyperion. Join thousands of traders already benefiting from our platform and start your AI-powered Perps Trading journey today.</p>
                             </div>
                             <div className="md:w-10/12 w-full lg:w-6/12 px-3">
