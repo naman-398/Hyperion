@@ -9,7 +9,8 @@ module.exports = {
         grey_cloud: '#B6B6B4',
         bee_yellow: 'DEB21B',
         night: '#0B0B0B',
-        snow_drift: '#F9F9F7'
+        snow_drift: '#F9F9F7',
+        lighting_yellow: '##F2C922',
       },
       backgroundImage:{
 yellow_gradient: 'linear-gradient(97.23deg, #F2C922 -33.73%, #B8860B 100.34%)',
