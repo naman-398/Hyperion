@@ -28,7 +28,7 @@ const Roadmap = () => {
                                 <p className=' mt-4 md:mt-6 font-poppins text-snow_drift max-w-[618px] opacity-70 text-[16px] sm:text-[18px] leading-[23.4px] font-normal'>Embrace the Hyperion Revolution by joining a global community of new and seasoned traders who support each other. Share your wins, insights, and strategies, seek expert opinions, get feedback, and collaborate with like-minded traders.</p>
                             </div>
                             <div className="md:w-10/12 w-full lg:w-6/12 px-3">
-                                <img src={trade1} alt="img-trade" aria-label='roadmap img trade' className=' mt-5 mt-lg-0 w-full max-w-[590px] min-[1400px]:translate-x-[60px]' />
+                                <img src={trade1} alt="img-trade" aria-label='roadmap img trade' className=' mt-5 lg:mt-0 w-full max-w-[590px] min-[1400px]:translate-x-[60px]' />
                             </div>
                         </div>
                         <div className=' flex flex-wrap mx-[-12px] flex-col lg:flex-row relative items-center z-10 sm:pl-[50px] pl-8'>
@@ -56,7 +56,7 @@ const Roadmap = () => {
                                 <p className=' mt-4 md:mt-6 font-poppins text-snow_drift max-w-[618px] opacity-70 text-[16px] sm:text-[18px] leading-[23.4px] font-normal'>Up your trading game with Hyperion. Join thousands of traders already benefiting from our platform and start your AI-powered Perps Trading journey today.</p>
                             </div>
                             <div className="md:w-10/12 w-full lg:w-6/12 px-3">
-                                <img src={trade3} alt="img-trade" aria-label='roadmap img trade' className=' w-full max-w-[639px] lg:ml-auto min-[1457px]:translate-x-[53px]' />
+                                <img src={trade3} alt="img-trade" aria-label='roadmap img trade' className=' w-full mt-5 md:mt-0 max-w-[639px] lg:ml-auto min-[1457px]:translate-x-[53px]' />
                             </div>
                         </div>
                     </div>
