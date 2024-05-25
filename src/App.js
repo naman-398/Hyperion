@@ -4,6 +4,7 @@ import Herosection from './components/Herosection';
 import EaseAndDiversity from './components/EaseAndDiversity';
 import Hperionsection from './components/Hperionsection';
 import MissionSection from './components/MissionSection';
+import ExperienceSection from './components/ExperienceSection';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <EaseAndDiversity/>
       <Hperionsection/>
       <MissionSection/>
+      <ExperienceSection/>
     </div>
   );
 }

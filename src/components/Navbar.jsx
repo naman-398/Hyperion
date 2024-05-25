@@ -14,7 +14,7 @@ const Navbar = () => {
     }
     return (
         <div className=' py-4'>
-            <div className=' container max-w-[1368px] px-3 mx-auto'>
+            <div className=' container max-w-[1409px] px-3 mx-auto'>
                 <div className=' flex items-center justify-between'>
                     <a href="#"><img src={PageLogo} alt="pagelogo" className='max-w-[150px] max-h-[29.73px]' /></a>
                     <ul className={`${first=== false ? " left-[-100%]" : " left-0"}  font-poppins fw-normal text-lg sm:text-xl lg:text-base leading-[20.8px] text-snow_drift flex  items-center gap-6 mobile-view`}>

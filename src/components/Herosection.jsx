@@ -9,7 +9,7 @@ const Herosection = () => {
                 <Navbar />
             </div>
             <div className=' flex grow flex-col justify-center'>
-                <div className=' container max-w-[1385px] px-3 mx-auto'>
+                <div className=' container max-w-[1409px] px-3 mx-auto'>
                     <div className=' flex lg:flex-row flex-wrap -mx-3 items-center pt-[50px]'>
                         <div className=' w-full lg:w-7/12 2xl:px-0 px-3 '>
                             <div className=' p-[8px_12px] rounded-[100px] bg-[#18191B] font-poppins border-origin bg-border_gradient border-solid fw-normal  mx-auto lg:mx-0 text-base leading-5 text-snow_drift opacity-70 max-w-[321px] relative'>

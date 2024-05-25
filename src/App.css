@@ -24,8 +24,8 @@ display: none !important;
     background-color: black;
     z-index: 11;
     transition: all 300ms linear !important;
-    /* border-width: 1px, 0px, 0px, 1px;
-border-style: solid;
-border-image-source: linear-gradient(40.53deg, rgba(22, 22, 22, 0) 20.8%, #B8860B 52.99%, rgba(22, 22, 22, 0) 85.19%); */
+  }
+  .overflow_hidden{
+    overflow: hidden;
   }
 }
