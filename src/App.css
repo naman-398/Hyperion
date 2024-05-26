@@ -15,7 +15,16 @@ body {
 
 .timeline_blur {
   filter: blur(1px);
-} 
-.timeline_line{
-  
+}
+
+.timeline_line {}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.box_about {
+  background-image: url("../src/assets/images/png/about-bg.png");
+  background-size: 100% 100%;
 }
