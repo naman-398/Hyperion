@@ -8,6 +8,8 @@ import Abouthype from './components/Abouthype';
 import Experience from './components/Experience';
 import Features from './components/Features';
 import Roadmap from './components/Roadmap';
+import Familihype from './components/Familihype';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Abouthype />
       <Features />
       <Experience />
+      <Familihype />
+      {/* <Footer /> */}
     </div>
   );
 }
