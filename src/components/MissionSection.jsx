@@ -17,7 +17,7 @@ const MissionSection = () => {
                     </div>
                     <div className=' w-full xl:w-1/2 px-3 xl:h-[582px] relative'>
                         <img src={MissionSectionImg} alt="hpercionsection" className=' max-w-[1209px] w-full xl:min-w-[1208px] xl:h-[582px] xl:absolute right-[-95%] xl:right-[-90%] 1350:right-[-83%]' />
-                        <img src={BlackLayer} alt="blacklayer" className=' absolute bottom-[-1%]  w-full xl:w-[unset] xl:right-[-5%] right-0' />
+                        <img src={BlackLayer} alt="blacklayer" className=' absolute bottom-[-1%]  w-full xl:min-w-[1087px]  xl:right-[-60%] right-0' />
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@ const Hperionsection = () => {
                 <div className=' flex flex-wrap -mx-3 flex-row mt-[30px] sm:mt-[64px] items-center'>
                     <div className=' w-full xl:w-1/2 px-3 xl:h-[565px] relative'>
                         <img src={hyperion} alt="hpercionsection" className=' max-w-[1208px] w-full xl:min-w-[1208px] xl:h-[565px] xl:absolute left-[-95%] xl:left-[-90%] 1350:left-[-83%]' />
-                        <img src={BlackLayer} alt="blacklayer" className=' absolute bottom-[-1%]  w-full xl:w-[unset] xl:right-[7%] right-0' />
+                        <img src={BlackLayer} alt="blacklayer" className=' absolute bottom-[-1%]  w-full xl:min-w-[1087px] xl:right-[7%] right-0' />
                     </div>
                     <div className=' w-full xl:w-1/2 px-3 pt-3 sm:pt-6 xl:pt-0'>
                         <div className=' xl:max-w-[608px]  '>
