@@ -32,6 +32,17 @@ const Features = () => {
                         <div className="77.7% pl-12 md:border-l-[1px] border-l-[#1E1E1F]">
                             <div className=" flex flex-row gap-12">
                                 <img src={graphimg2} alt="" className=" max-w-[392px]" />
+                                <div className=" flex flex-col ">
+                                    <p className='text-center md:text-start  text_gredient1 text-transparent bg-clip-text font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] lg:mb-6 mb-3 font-poppins'>AI Trading Indicators
+                                    </p>
+                                    <p className='text-center md:text-start font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal max-w-[392px]'>Gain a competitive edge with Hyperion's AI trading indicator. Identify the most promising trading pairs and leverage AI-driven analysis for strategic, low-risk trades. </p>
+                                    <p className='text-center md:text-start font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal max-w-[392px]'>Here’s a breakdown of 10+ trading indicators you’ll get from Hyperion AI for each of your trades: </p>
+                                    <p className=" text-[#B2B2B1]"></p>
+                                </div>
+
+
+
+                                
                             </div>
                         </div>
                     </div>
