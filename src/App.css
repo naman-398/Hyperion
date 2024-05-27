@@ -20,6 +20,9 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+.aiDrivencard:hover .aiDrivenimg{
+  transform: scale(1.05);
+}
 
 .box_about {
   background-image: url("../src/assets/images/webp/about-bg.webp");
@@ -30,17 +33,8 @@ body {
   background-image: url('../src/assets/images/webp/experience-bg.webp');
   background-size: 100% 100%;
 }
-
-.border-origin {
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
-  border-width: 1px 0px 0px 1px;
-  background-image: linear-gradient(#18191B, #18191B),
-    linear-gradient(40.53deg, rgba(22, 22, 22, 0) 20.8%, #B8860B 52.99%, rgba(22, 22, 22, 0) 85.19%);
-}
-
-.y-scroll ::-webkit-scrollbar {
-  display: none !important;
+.bg-img-experience1{
+  background-image: url('./assets/images/webp/Experiencebg.webp');
 }
 .bg-family{
   background-size: 100% 100%;

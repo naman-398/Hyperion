@@ -8,17 +8,16 @@ import Abouthype from './components/Abouthype';
 import Experience from './components/Experience';
 import Features from './components/Features';
 import Roadmap from './components/Roadmap';
-import Familihype from './components/Familihype';
-import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className=' overflow-hidden bg-[#0D0D0D]'>
+    <div className=' overflow-hidden bg-[#0B0B0B]'>
       <Herosection />
       <EaseAndDiversity />
       <Hperionsection />
       <MissionSection />
       <ExperienceSection />
+      <AiDriven/>
       <Roadmap />
       <Abouthype />
       <Features />
