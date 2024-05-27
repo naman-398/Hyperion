@@ -12,7 +12,7 @@ const Hperionsection = () => {
                     <div className=' w-full xl:w-1/2 px-3 xl:h-[565px] relative'>
                         <img src={hyperion} alt="hpercionsection" className=' max-w-[1208px] w-full xl:min-w-[1208px] xl:h-[565px] xl:absolute left-[-95%] xl:left-[-90%] 1350:left-[-83%]' />
                     </div>
-                    <div className=' w-full xl:w-1/2 px-3 sm:pt-6 xl:pt-0'>
+                    <div className=' w-full xl:w-1/2 px-3 pt-3 sm:pt-6 xl:pt-0'>
                         <div className=' xl:max-w-[608px]  xl:ms-auto '>
                             <p className=' text-transparent bg-clip-text bg-text_gradient1 tracking-[-2%] text-[25px] sm:text-[30px] leading-[30px] font-poppins fw-medium pb-3 sm:pb-6 text-center xl:text-start'>Decentralized Trade Insights</p>
                             <p className=' font-poppins fw-normal  text-base sm:text-lg leading-[23.4px] text-snow_drift opacity-70 mb-2 sm:mb-3 text-center xl:text-start'>With Hyperion-AI, you'll get all the information you need to make a well-informed trade.  Our AI conducts deep technical analysis on every available pair, analyzes the current revelant news, tracks social sentiment, and provides a trade score +  suggestions on your trade.</p>
