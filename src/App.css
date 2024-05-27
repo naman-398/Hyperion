@@ -20,6 +20,9 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+.aiDrivencard:hover .aiDrivenimg{
+  transform: scale(1.05);
+}
 
 .box_about {
   background-image: url("../src/assets/images/webp/about-bg.webp");
@@ -31,7 +34,7 @@ body {
   background-size: 100% 100%;
 }
 .bg-img-experience1{
-  background-image: url('./assets/images/webp/Group\ 8.png');
+  background-image: url('./assets/images/webp/Experiencebg.webp');
 }
 
 @media (max-width: 1023.9px) {
