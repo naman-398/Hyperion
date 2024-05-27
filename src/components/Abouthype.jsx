@@ -1,6 +1,5 @@
 import dashboard from '../assets/images/webp/Dashboard-img.webp'
 import dashboard2 from '../assets/images/webp/Dashboard-img2.webp'
-import vector from '../assets/images/webp/about-vector.png'
 const Abouthype = () => {
     return (
         <>
@@ -39,7 +38,6 @@ const Abouthype = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

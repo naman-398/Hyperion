@@ -25,6 +25,11 @@ body {
 }
 
 .box_about {
-  background-image: url("../src/assets/images/png/about-bg.png");
+  background-image: url("../src/assets/images/webp/about-bg.webp");
+  background-size: 100% 100%;
+}
+
+.bg-experience {
+  background-image: url('../src/assets/images/webp/experience-bg.webp');
   background-size: 100% 100%;
 }
