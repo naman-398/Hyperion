@@ -8,6 +8,8 @@ import Abouthype from './components/Abouthype';
 import Experience from './components/Experience';
 import Features from './components/Features';
 import Roadmap from './components/Roadmap';
+import AiDriven from './components/AiDriven';
+import Familihype from './components/Familihype';
 
 function App() {
   return (
