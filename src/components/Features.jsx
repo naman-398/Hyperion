@@ -1,6 +1,7 @@
 import { featuredata } from "./common/Helper"
 import graphimg from '../assets/images/webp/feature-img4.webp'
 import graphimg2 from '../assets/images/webp/feature-img5.webp'
+import tik from '../assets/images/svg/tik.svg'
 const Features = () => {
     return (
         <>
@@ -21,31 +22,52 @@ const Features = () => {
                             )
                         })}
                     </div>
-                    <div className=" flex flex-row flex-wrap pt-12">
-                        <div className=" w-[32.3%] h-full">
+                    <div className=" flex flex-col-reverse min-[1380px]:flex-row flex-wrap pt-12">
+                        <div className="max-[1380px]:mt-12 max-[1380px]:flex items-center justify-center min-[1380px]:w-[32.3%] h-full ">
                             <div className=" max-w-[392px]">
-                                <p className='text-center md:text-start  text_gredient1 text-transparent bg-clip-text font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] lg:mb-6 mb-3 font-poppins'>Integrations</p>
-                                <p className='text-center md:text-start font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal max-w-[392px]'>GMX, SYNTHENTIX, AGGR TRADE, 0x Protocol, TradingView </p>
-                                <img src={graphimg} alt="imggraph" className="w-full mt-12" />
+                                <p className='text-center min-[1380px]:text-start  text_gredient1 text-transparent bg-clip-text font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] lg:mb-6 mb-3 font-poppins'>Integrations</p>
+                                <p className='text-center min-[1380px]:text-start font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal max-w-[392px]'>GMX, SYNTHENTIX, AGGR TRADE, 0x Protocol, TradingView </p>
+                                <img src={graphimg} alt="imggraph" className="w-full xl:mt-12 lg:mt-10 md:mt-8 mt-6" />
                             </div>
                         </div>
-                        <div className="w-[65%] pl-12 md:border-l-[1px] border-l-[#1E1E1F]">
-                            <div className=" flex flex-row gap-12">
-                                <img src={graphimg2} alt="" className=" max-w-[392px]" />
-                                <div className=" flex flex-col ">
-                                    <p className='text-center md:text-start  text_gredient1 text-transparent bg-clip-text font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] lg:mb-6 md:mb-4 mb-3 font-poppins'>AI Trading Indicators
+                        <div className="min-[1380px]:w-[67.7%] min-[1380px]:pl-12 min-[1380px]:border-l-[1px] border-l-[#1E1E1F]">
+                            <div className=" flex flex-col lg:flex-row md:gap-10 gap-6 items-center justify-center lg:gap-12">
+                                <img src={graphimg2} alt="imggraph2" className=" max-w-[302px] w-full sm:max-w-[392px] max-h-[300px] sm:max-h-[400px] md:max-h-[470px] lg:max-h-full" />
+                                <div className=" flex flex-col max-w-[600px]">
+                                    <p className='text-center lg:text-start  text_gredient1 text-transparent bg-clip-text font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] lg:mb-6 md:mb-4 mb-3 font-poppins'>AI Trading Indicators
                                     </p>
-                                    <p className='text-center md:text-start font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal max-w-[392px]'>Gain a competitive edge with Hyperion's AI trading indicator. Identify the most promising trading pairs and leverage AI-driven analysis for strategic, low-risk trades. </p>
-                                    <p className='text-center md:text-start mt-3 font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal max-w-[392px]'>Here’s a breakdown of 10+ trading indicators you’ll get from Hyperion AI for each of your trades: </p>
-                                    <p className=" text-[#B2B2B1]"></p>
-                                    <p className='text-center md:text-start  text_gredient1 text-transparent bg-clip-text font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] lg:mb-6 md:mb-4 mb-3 font-poppins'>AI Trading Indicators
-                                    </p>
-                                    <p className='text-center md:text-start font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal max-w-[392px]'>Gain a competitive edge with Hyperion's AI trading indicator. Identify the most promising trading pairs and leverage AI-driven analysis for strategic, low-risk trades. </p>
-                                    <p className='text-center md:text-start mt-3 font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal max-w-[392px]'>Here’s a breakdown of 10+ trading indicators you’ll get from Hyperion AI for each of your trades: </p>
-                                    <p className=" text-[#B2B2B1]"></p>
+                                    <p className='text-center lg:text-start font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Gain a competitive edge with Hyperion's AI trading indicator. Identify the most promising trading pairs and leverage AI-driven analysis for strategic, low-risk trades. </p>
+                                    <p className='text-center lg:text-start mt-3 font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Here’s a breakdown of 10+ trading indicators you’ll get from Hyperion AI for each of your trades: </p>
+                                    <p className="text-[#B2B2B1] leading-[23.4px] text-[16px] lg:text-[18px] lg:mt-10 md:mt-6 mt-4 xl:mt-12 font-semibold mb-6">Brief description of current market sentiment and opinion</p>
+                                    <div className=" flex items-start justify-start gap-[6px]">
+                                        <img src={tik} alt="imgtik" />
+                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Real Time funding rates</p>
+                                    </div>
+                                    <div className=" flex items-start justify-start mt-3 gap-[6px]">
+                                        <img src={tik} alt="imgtik" />
+                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Oracle Pricing</p>
+                                    </div>
+                                    <div className=" flex items-start justify-start mt-3 gap-[6px]">
+                                        <img src={tik} alt="imgtik" />
+                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Oscillators, Moving Averages, Pivots and their direct relevancy + impact to your potential trade</p>
+                                    </div>
+                                    <div className=" flex items-start justify-start mt-3 gap-[6px]">
+                                        <img src={tik} alt="imgtik" />
+                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Real Time Order Book</p>
+                                    </div>
+                                    <div className=" flex items-start justify-start mt-3 gap-[6px]">
+                                        <img src={tik} alt="imgtik" />
+                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Market Sentiment</p>
+                                    </div>
+                                    <div className=" flex items-start justify-start mt-3 gap-[6px]">
+                                        <img src={tik} alt="imgtik" />
+                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Total Score for a short/long position</p>
+                                    </div>
+                                    <div className=" flex items-start justify-start mt-3 gap-[6px]">
+                                        <img src={tik} alt="imgtik" />
+                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Closing Statements / Remarks + trade suggestions</p>
+                                    </div>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
