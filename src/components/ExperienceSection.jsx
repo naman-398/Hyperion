@@ -28,10 +28,10 @@ const ExperienceSection = () => {
                     <p className=' font-poppins fw-normal  opacity-70 leading-5 text-snow_drift text-center md:text-start'>Hyperion-AI compiles real-time data into easy-to-implement reports, guiding your trading decisions.</p>
                 </div>
             </div>
-            <div className=' mt-[64px] w-full p-[25px] sm:p-[64px] xl:p-[64px_84px] rounded-[24px] bg-[#1010108A] flex items-center flex-col lg:flex-row justify-between'>
+            <div className=' mt-[64px] w-full p-[25px] sm:p-[64px] xl:p-[64px_84px] rounded-[24px] bg-[url(./assets/images/webp/Group 8.png)] bg-100% bg-center bg-no-repeat flex items-center flex-col lg:flex-row justify-between'>
                 <p className=' font-poppins fw-normal text-[20px] sm:text-[24px]  xl:text-[28px] leading-[28px] sm:leading-[36.4px] text-snow_drift opacity-70 lg:max-w-[795px] text-center lg:text-start'>Experience the power of Hyperion-AI, developed for the perps and futures market, and trade with confidence</p>
                 <span className=' mt-4 lg:mt-0 lg:ms-3'>
-                    <Commonbtn/>
+                    <Commonbtn />
                 </span>
             </div>
         </div>
