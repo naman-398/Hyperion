@@ -10,11 +10,11 @@ const Features = () => {
                     <div className="flex ">
                         {featuredata.map((obj, index) => {
                             return (
-                                <div className={`${index == 0 ? "border-r-[1px] w-[32.2%] border-r-[#1E1E1F] pr-12" : index == 1 ? "border-r-[1px] px-12 border-r-[#1E1E1F]" : index == 2 ? "pl-12" : ""}`}>
+                                <div className={`${index == 0 ? "border-r-[1px] w-[32.2%] border-r-[#1E1E1F] pr-12" : index == 1 ? "border-r-[1px] w-[36%] px-12 border-r-[#1E1E1F]" : index == 2 ? "pl-12 w-[32.2%]" : ""}`}>
                                     <img src={obj.img} alt="img" className="w-[392px]" />
                                     <p className=' text_gredient1 text-transparent bg-clip-text font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] font-poppins'>{obj.title}</p>
                                     <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>{obj.description}</p>
-                                    
+
                                 </div>
                             )
                         })}
