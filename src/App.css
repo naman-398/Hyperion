@@ -31,17 +31,6 @@ body {
   background-size: 100% 100%;
 }
 
-.border-origin {
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
-  border-width: 1px 0px 0px 1px;
-  background-image: linear-gradient(#18191B, #18191B),
-    linear-gradient(40.53deg, rgba(22, 22, 22, 0) 20.8%, #B8860B 52.99%, rgba(22, 22, 22, 0) 85.19%);
-}
-
-.y-scroll ::-webkit-scrollbar {
-  display: none !important;
-}
 
 @media (max-width: 1023.9px) {
   .mobile-view {
