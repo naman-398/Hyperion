@@ -11,7 +11,7 @@ import Roadmap from './components/Roadmap';
 
 function App() {
   return (
-    <div className=' overflow-hidden bg-[#0D0D0D]'>
+    <div className=' overflow-hidden bg-[#0B0B0B]'>
       <Herosection />
       <EaseAndDiversity />
       <Hperionsection />

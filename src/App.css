@@ -30,7 +30,9 @@ body {
   background-image: url('../src/assets/images/webp/experience-bg.webp');
   background-size: 100% 100%;
 }
-
+.bg-img-experience1{
+  background-image: url('./assets/images/webp/Group\ 8.png');
+}
 
 @media (max-width: 1023.9px) {
   .mobile-view {
