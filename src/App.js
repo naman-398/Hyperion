@@ -1,4 +1,5 @@
 import './App.css';
+<<<<<<< HEAD
 import Herosection from './components/Herosection';
 import EaseAndDiversity from './components/EaseAndDiversity';
 import Hperionsection from './components/Hperionsection';
@@ -27,6 +28,16 @@ function App() {
       <Experience />
       <Familihype />
       <Footer/>
+=======
+import Abouthype from './components/Abouthype';
+import Roadmap from './components/Roadmap';
+
+function App() {
+  return (
+    <div>
+      <Roadmap />
+      <Abouthype />
+>>>>>>> 97de993 (roadmap section)
     </div>
   );
 }

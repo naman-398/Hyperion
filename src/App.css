@@ -15,6 +15,7 @@ body {
 
 .timeline_blur {
   filter: blur(1px);
+<<<<<<< HEAD
 }
 
 ::-webkit-scrollbar {
@@ -56,4 +57,9 @@ body {
   .overflow_hidden {
     overflow: hidden;
   }
+=======
+} 
+.timeline_line{
+  
+>>>>>>> 97de993 (roadmap section)
 }
