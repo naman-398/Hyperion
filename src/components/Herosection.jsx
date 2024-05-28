@@ -16,6 +16,9 @@ const Herosection = () => {
                 <div className=' container max-w-[1409px] px-3 mx-auto'>
                     <div className=' flex lg:flex-row flex-wrap -mx-3 items-center pt-[20px] lg:pt-0 relative z-1'>
                         <div className=' w-full lg:w-7/12 2xl:px-0 px-3 '>
+                        <button className="bg-gray-800 text-gray-300 font-bold py-2 px-4 border-l-2 border-gradient-to-r from-yellow-500 to-orange-500 border-t-0 border-r-0 border-b-0 border-opacity-0 hover:border-opacity-100 hover:border-l-2 hover:border-r-0 hover:border-t-0 hover:border-b-0 hover:border-gradient-to-r hover:from-yellow-500 hover:to-orange-500 hover:border-l-1 hover:border-r-1 hover:border-t-1 hover:border-b-1 hover:opacity-100 transition-all duration-300 ease-in-out w-[98px]  h-[37px]  rounded-[1000px] opacity-[0%]">
+  Permissionless, Limitless & Borderless
+</button>
                             <div className=' p-[8px_12px] rounded-[100px] bg-[url(./assets/images/webp/SubHeadingBg.webp)] bg-100% bg-center bg-no-repeat font-poppins  font-normal  mx-auto lg:mx-0 text-base leading-5 text-snow_drift opacity-70 max-w-[321px] relative'>
                                 Permissionless, Limitless & Borderless
                             </div>

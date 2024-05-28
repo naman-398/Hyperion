@@ -9,7 +9,7 @@ const Hperionsection = () => {
         <div className=' pt-[50px] sm:pt-[80px] lg:pt-[140px] relative'>
             <img src={HyperionSectionBg} alt="hyperionbg" className=' absolute  top-[20%] right-0' />
             <img src={HyperionEllipse} alt="hyperionbg" className=' absolute  top-[-10%] z-[-1] left-0 max-w-[610px]' />
-            <div className=' max-w-[1409px] ms-auto px-3'>
+            <div className=' max-w-[1409px] mx-auto px-3'>
                 <h2 className=' xl:max-w-[976px] text-center text-transparent bg-clip-text bg-text_gradient1 tracking-[-2%]  font-medium text-[32px] 576:text-[45px] sm:text-[50px]  md:text-[56px] leading-[32px] 576:leading-[45px] sm:leading-[50px] md:leading-[56px]'>   Hyperion isn't just
                     <span className=' md:block xl:text-start'> another trading platform – it's your </span>
                     <span className=' xl:flex'> partner in perps trading </span></h2>
