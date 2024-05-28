@@ -38,7 +38,7 @@ const EaseAndDiversity = () => {
     });
   }, []);
   return (
-    <div className=' px-3 pt-8 lg:pt-0'>
+    <div className=' px-3 pt-12 lg:pt-0'>
       <div className=' rounded-[48px] max-w-[1468px] bg-[url(./assets/images/webp/Section2bg.webp)] bg-center bg-cover relative z-[1] md:bg-100% bg-no-repeat mx-auto  p-[0_20px_20px_20px] sm:p-[0_30px_30px_30px] lg:p-[0_30px] xl:p-[0_64px_0_84px] overflow-hidden'>
         <div className=' flex flex-wrap flex-row -mx-3 items-center'>
           <div className=' w-full lg:w-1/2 px-3'>
@@ -102,14 +102,14 @@ const EaseAndDiversity = () => {
           <div className=' w-full lg:w-1/2 px-3 pt-6 lg:pt-0'>
             <div className=' max-w-[576px] lg:me-0 mx-auto lg:ms-auto lg:h-[578px] flex flex-col justify-between '>
               <div className=' font-poppins'>
-                <h2 className=' font-medium text-[38px] 576:text-[45px] sm:text-[50px]  md:text-[56px] leading-[38px] 576:leading-[45px] sm:leading-[50px] md:leading-[56px] text-transparent bg-clip-text bg-text_gradient1 pb-3 sm:pb-6 tracking-[-2%] text-center lg:text-start'>Ease and diversity in trading</h2>
+                <h2 className=' font-medium text-[32px] 576:text-[45px] sm:text-[50px]  md:text-[56px] leading-[32px] 576:leading-[45px] sm:leading-[50px] md:leading-[56px] text-transparent bg-clip-text bg-text_gradient1 pb-3 sm:pb-6 tracking-[-2%] text-center lg:text-start'>Ease and diversity in trading</h2>
                 <p className=' font-normal text-base sm:text-lg leading-[23.4px] text-snow_drift opacity-70 text-center lg:text-start mb-3 sm:mb-6'>At Hyperion, we harness the power of AI to make perps trading effortless, efficient, and exciting. Hyperion equips you with everything necessary to grasp the your potential trades thoroughly, make a completely informed trading decision, and execute the trade in seconds.
                 </p>
               </div>
               <div>
                 <div className=' border-l-[1px] border-solid border-[#F2C922] ps-6'>
-                  <p className=' font-poppins font-normal  text-lg leading-[23.4px] text-snow_drift opacity-70 text-center lg:text-start'>We've built a trader-friendly interface for you that's simple to use and easy to understand</p>
-                  <p className=' font-poppins font-normal  text-lg leading-[23.4px] text-snow_drift opacity-70 mt-3 text-center lg:text-start'>Plus, we offer over 70 tokens and pairs to trade, giving you plenty of options to trade</p>
+                  <p className=' font-poppins font-normal text-base  sm:text-lg leading-[23.4px] text-snow_drift opacity-70 text-center lg:text-start'>We've built a trader-friendly interface for you that's simple to use and easy to understand</p>
+                  <p className=' font-poppins font-normal text-base  sm:text-lg leading-[23.4px] text-snow_drift opacity-70 mt-3 text-center lg:text-start'>Plus, we offer over 70 tokens and pairs to trade, giving you plenty of options to trade</p>
                 </div>
               </div>
             </div>

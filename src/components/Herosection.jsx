@@ -14,7 +14,7 @@ const Herosection = () => {
                 <img src={headerelipse} alt="heraderelipse" className=' absolute right-0 top-[-14%] z-0' />
                 <img src={headerelipse2} alt="heraderelipse" className=' absolute right-[-10%] top-[-4%] z-0' />
                 <div className=' container max-w-[1409px] px-3 mx-auto'>
-                    <div className=' flex lg:flex-row flex-wrap -mx-3 items-center pt-[50px] relative z-1'>
+                    <div className=' flex lg:flex-row flex-wrap -mx-3 items-center pt-[20px] lg:pt-0 relative z-1'>
                         <div className=' w-full lg:w-7/12 2xl:px-0 px-3 '>
                             <div className=' p-[8px_12px] rounded-[100px] bg-[url(./assets/images/webp/SubHeadingBg.webp)] bg-100% bg-center bg-no-repeat font-poppins  font-normal  mx-auto lg:mx-0 text-base leading-5 text-snow_drift opacity-70 max-w-[321px] relative'>
                                 Permissionless, Limitless & Borderless
