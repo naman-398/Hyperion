@@ -9,6 +9,7 @@ import Experience from './components/Experience';
 import Features from './components/Features';
 import Roadmap from './components/Roadmap';
 import AiDriven from './components/AiDriven';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Abouthype />
       <Features />
       <Experience />
+      <Footer/>
     </div>
   );
 }
