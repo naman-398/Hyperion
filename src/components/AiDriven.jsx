@@ -4,7 +4,7 @@ import AIdriven2 from "../assets/images/webp/AiDriven2.webp";
 import AIdriven3 from "../assets/images/webp/AiDriven3.webp";
 const AiDriven = () => {
     return (
-        <div className=' pt-[50px] sm:pt-[80px] lg:pt-[140px]' >
+        <div className=' mt-[50px] sm:mt-[80px] lg:mt-[140px] bg-[url(./assets/images/webp/aidrivenbg.webp)] bg-cover bg-center bg-no-repeat' >
             <div className=' max-w-[1409px] mx-auto px-3'>
                 <div className=' flex min-[1200px]:items-end justify-between flex-col min-[1200px]:flex-row'>
                     <h2 className=' min-[1200px]:max-w-[864px] text-center font-medium  text-transparent bg-clip-text bg-text_gradient1 tracking-[-2%] text-[30px] sm:text-[38px] md:text-[44px] lg:text-[56px] md:leading-[56px] leading-[40px] sm:leading-[46px]'> The hyperion
@@ -40,8 +40,8 @@ const AiDriven = () => {
                             <div className=' max-w-[440px] max-h-[313px] rounded-tl-[24px] rounded-tr-[24px] overflow-hidden '>
                                 <img src={AIdriven3} alt="aidriven" className='aidriven aiDrivenimg duration-300 ' />
                             </div>
-                            <div className=' p-5 sm:p-6 xl:p-12'>
-                                <p className=' text-transparent bg-clip-text bg-text_gradient1 font-poppins font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px]racking-[-2%] pb-2 sm:pb-6'>Lightning-fast execution</p>
+                            <div className=' p-5 sm:p-6 xl:pb-12 xl:px-12 xl:pt-[39px]'>
+                                <p className=' text-transparent bg-clip-text bg-text_gradient1 font-poppins font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] tracking-[-2%] pb-2 sm:pb-6'>Lightning-fast execution</p>
                                 <p className=' font-poppins font-normal text-base leading-[20.8px] text-snow_drift opacity-70'>Execute trades with lightning-fast speed and precision. Our platform is built for performance, ensuring that you never miss out on that perfect trading opportunity!</p>
                             </div>
                         </div>
