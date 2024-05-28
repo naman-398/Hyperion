@@ -6,8 +6,8 @@ import headerelipse from "../assets/images/webp/headerelipse.webp";
 import headerelipse2 from "../assets/images/webp/HeaderElispe2.webp";
 const Herosection = () => {
     return (
-        <div className=' flex flex-col min-h-screen  bg-center bg-100% bg-no-repeat  bg-[url(./assets/images/webp/herobg.webp)] '>
-            <div>
+        <div className=' flex flex-col min-h-screen  bg-center bg-cover md:bg-100% bg-no-repeat  bg-[url(./assets/images/webp/herobg.webp)] '>
+            <div className=' relative z-[3]'>
                 <Navbar />
             </div>
             <div className=' flex grow flex-col justify-center relative'>
