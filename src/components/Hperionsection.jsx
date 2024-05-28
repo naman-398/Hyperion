@@ -6,7 +6,7 @@ import HyperionEllipse from "../assets/images/webp/Hyperionellipse.webp";
 import BlackLayer from "../assets/images/webp/BlackLayer.webp";
 const Hperionsection = () => {
     return (
-        <div className=' pt-[35px] sm:pt-[80px] lg:pt-[140px] relative' >
+        <div className=' pt-[35px] sm:pt-[80px] lg:pt-[140px] relative z-0' >
             <img src={HyperionSectionBg} alt="hyperionbg" className=' absolute  top-[20%] right-0 z-[-1]' />
             <img src={HyperionEllipse} alt="hyperionbg" className=' absolute  top-[-10%] z-[-1] left-0 max-w-[610px]' />
             <div className=' max-w-[1409px] mx-auto px-3'>
