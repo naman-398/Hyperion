@@ -27,7 +27,7 @@ const Herosection = () => {
                                 powered decentralized
                                 perps platform
                             </h1>
-                            <p className=' max-w-[546px] font-poppins font-normal  text-base sm:text-lg leading-[23.4px] opacity-70 mt-4 sm:mt-8 text-snow_drift mx-auto text-center lg:text-start lg:mx-0'>Trade 70+ Tokens & Pairs on 3 Chains with 50X Leverage. There is an Easier, Faster, Simpler, and Safer Way to Trade - Enter the Hyperion Experience</p>
+                            <p className=' max-w-[546px] font-poppins font-normal  text-base sm:text-lg leading-[23.4px] opacity-70 mt-4 sm:mt-8 text-snow_drift mx-auto text-center lg:text-start lg:mx-0 min-[450px]:px-0 px-4'>Trade 70+ Tokens & Pairs on 3 Chains with 50X Leverage. There is an Easier, Faster, Simpler, and Safer Way to Trade - Enter the Hyperion Experience</p>
                             <span className=' flex justify-center lg:block mt-6 sm:mt-12'> <Commonbtn /></span>
                         </div>
                         <div className=' w-full lg:w-5/12 px-3 pt-8 lg:pt-0'>

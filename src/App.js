@@ -12,11 +12,13 @@ import AiDriven from './components/AiDriven';
 import Footer from './components/Footer';
 import Familihype from './components/Familihype';
 import Loadersection from './components/Loadersection';
+import Backtotop from './components/Backtotop';
 
 function App() {
   return (
     <div className=' overflow-hidden bg-[#0B0B0B]'>
       <Loadersection/>
+      <Backtotop/>
       <Herosection />
       <EaseAndDiversity />
       <Hperionsection />
