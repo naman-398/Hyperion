@@ -10,7 +10,7 @@ const Herosection = () => {
             <div className=' relative z-[3]'>
                 <Navbar />
             </div>
-            <div className=' flex grow flex-col justify-center relative'>
+            <div className=' flex grow flex-col justify-center relative' id='home'>
                 <img src={headerelipse} alt="heraderelipse" className=' absolute right-0 top-[-14%] z-0' />
                 <img src={headerelipse2} alt="heraderelipse" className=' absolute right-[-10%] top-[-4%] z-0' />
                 <div className=' container max-w-[1409px] px-3 mx-auto'>

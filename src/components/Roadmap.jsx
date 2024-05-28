@@ -30,7 +30,7 @@ const Roadmap = () => {
 
     return (
         <>
-            <div className=' md:mt-[100px] mt-[70px] lg:mt-[140px] bg-[#0B0B0B] overflow-hidden'>
+            <div className=' md:mt-[100px] mt-[70px] lg:mt-[140px] bg-[#0B0B0B] overflow-hidden' id='join'>
                 <div className=' max-w-[1368px] px-3 mx-auto'>
                     <div className="flex flex-col gap-[70px] md:gap-[100px] lg:gap-[160px] timeline_container relative md:pl-[18px]">
                         <div className='timeline_line w-[2px] h-full absolute md:left-[60px] lg:left-0 min-[1440px]:left-0 left-1 bg-lighting_yellow timeline_blur shadow-[0px_0px_29px_1px_#F2C922] min-[1600px]:left-[-50px]'></div>

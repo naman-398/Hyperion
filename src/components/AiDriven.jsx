@@ -4,7 +4,7 @@ import AIdriven2 from "../assets/images/webp/AiDriven2.webp";
 import AIdriven3 from "../assets/images/webp/AiDriven3.webp";
 const AiDriven = () => {
     return (
-        <div className=' pt-[50px] sm:pt-[80px] lg:pt-[140px]'>
+        <div className=' pt-[50px] sm:pt-[80px] lg:pt-[140px]' >
             <div className=' max-w-[1409px] mx-auto px-3'>
                 <div className=' flex min-[1200px]:items-end justify-between flex-col min-[1200px]:flex-row'>
                     <h2 className=' min-[1200px]:max-w-[864px] text-center font-medium  text-transparent bg-clip-text bg-text_gradient1 tracking-[-2%] text-[38px] 576:text-[45px] sm:text-[50px]  md:text-[56px] leading-[38px] 576:leading-[45px] sm:leading-[50px] md:leading-[56px]'> The hyperion

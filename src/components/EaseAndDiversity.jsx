@@ -38,7 +38,7 @@ const EaseAndDiversity = () => {
     });
   }, []);
   return (
-    <div className=' px-3 pt-12 lg:pt-0'>
+    <div className=' px-3 pt-12 lg:pt-0' id='trade'>
       <div className=' rounded-[48px] max-w-[1468px] bg-[url(./assets/images/webp/Section2bg.webp)] bg-center bg-cover relative z-[1] md:bg-100% bg-no-repeat mx-auto  p-[0_20px_20px_20px] sm:p-[0_30px_30px_30px] lg:p-[0_30px] xl:p-[0_64px_0_84px] overflow-hidden'>
         <div className=' flex flex-wrap flex-row -mx-3 items-center'>
           <div className=' w-full lg:w-1/2 px-3'>

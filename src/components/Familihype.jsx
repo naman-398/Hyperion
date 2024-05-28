@@ -12,7 +12,7 @@ const Familihype = () => {
                         </p>
                         <p className='text-center mt-2 md:mt-3 lg:mb-12 md:mb-10 mb-6 font-poppins text-snow_drift max-w-[816px] opacity-70 text-[16px] lg:text-[18px] leading-[23.4px] font-normal'>Engage in discussions, share insights, share your wins, participate in contests, and strategize with like-minded traders.
                         </p>
-                        <button className=' bg-yellow_gradient p-[22.5px_52px] mx-auto flex justify-center text-nowrap items-center lg:mx-0 py-[22px] border-[1px] overflow-hidden relative hover:brightness-100 duration-500 group  border-[#FFFFFF29]  rounded-[100px] font-poppins font-medium  text-base leading-5 text-night'>
+                        <button className=' bg-yellow_gradient p-[12px_32px] sm:p-[22.5px_52px] mx-auto flex justify-center text-nowrap items-center lg:mx-0 border-[1px] overflow-hidden relative hover:brightness-100 duration-500 group  border-[#FFFFFF29]  rounded-[100px] font-poppins font-medium  text-base leading-5 text-night'>
                             <span className=' -top-[150%] left-0 bg-yellow_gradient text-nowrap inline-flex w-80 h-[5px] group-hover:top-[150%] shadow-yellow-400 duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)] opacity-50 absolute '></span>
                             Join the Hyperion family
                         </button>
