@@ -41,7 +41,7 @@ const AiDriven = () => {
                                 <img src={AIdriven3} alt="aidriven" className='aidriven aiDrivenimg duration-300 ' />
                             </div>
                             <div className=' p-5 sm:p-6 xl:pb-12 xl:px-12 xl:pt-[39px]'>
-                                <p className=' text-transparent bg-clip-text bg-text_gradient1 font-poppins font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] tracking-[-2%] pb-2 sm:pb-6'>Lightning-fast execution</p>
+                                <p className=' text_driven text-transparent bg-clip-text bg-text_gradient1 font-poppins font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] tracking-[-2%] pb-2 sm:pb-6'>Lightning-fast execution</p>
                                 <p className=' font-poppins font-normal text-base leading-[20.8px] text-snow_drift opacity-70'>Execute trades with lightning-fast speed and precision. Our platform is built for performance, ensuring that you never miss out on that perfect trading opportunity!</p>
                             </div>
                         </div>

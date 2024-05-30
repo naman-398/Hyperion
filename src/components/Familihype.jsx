@@ -1,5 +1,4 @@
 import React from 'react'
-import Commonbtn from './common/Commonbtn'
 
 const Familihype = () => {
     return (
