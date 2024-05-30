@@ -6,14 +6,14 @@ import HyperionEllipse from "../assets/images/webp/Hyperionellipse.webp";
 import BlackLayer from "../assets/images/webp/BlackLayer.webp";
 const Hperionsection = () => {
     return (
-        <div className=' pt-[35px] sm:pt-[80px] lg:pt-[140px] relative z-0' >
+        <div className=' pt-[35px] sm:pt-[50px] md:pt-[60px] lg:pt-[140px] relative z-0' >
             <img src={HyperionSectionBg} alt="hyperionbg" className=' absolute  top-[20%] right-0 z-[-1]' />
             <img src={HyperionEllipse} alt="hyperionbg" className=' absolute  top-[-10%] z-[-1] left-0 max-w-[610px]' />
             <div className=' max-w-[1409px] mx-auto px-3'>
-                <h2 className=' xl:max-w-[976px] 1350:ms-5 text-center text-transparent pb-[4px] bg-clip-text bg-text_gradient1 tracking-[-2%]  font-medium text-[30px] sm:text-[38px] md:text-[44px] lg:text-[56px] md:leading-[56px] leading-[40px] sm:leading-[46px]'>   Hyperion isn't just
-                    <span className=' md:block xl:text-start'> another trading platform – it's your </span>
+                <h2 className=' xl:max-w-[995px] 1350:ms-5 text-center text-transparent pb-[4px] bg-clip-text bg-text_gradient1 font-poppins tracking-[-2%]  font-medium text-[26px] 576:text-[30px] sm:text-[38px] md:text-[44px] lg:text-[50px] xl:text-[56px] md:leading-[56px] leading-[36px] 576:leading-[40px] sm:leading-[46px]'>   Hyperion isn't just
+                    <span className=' lg:block xl:text-start'> another trading platform – it's your </span>
                     <span className=' xl:flex '> partner in perps trading </span></h2>
-                <div className=' flex flex-wrap -mx-3 flex-row mt-[15px] sm:mt-[60px] items-center'>
+                <div className=' flex flex-wrap -mx-3 flex-row mt-[15px] sm:mt-7 lg:mt-[60px] items-center'>
                     <div className=' w-full xl:w-1/2 px-3 xl:h-[565px] relative'>
                         <img src={hyperion} alt="hpercionsection" className=' max-w-[1208px] w-full xl:min-w-[1208px] xl:h-[565px] xl:absolute left-[-95%] xl:left-[-90%] 1350:left-[-79%]' />
                         <img src={BlackLayer} alt="blacklayer" className=' absolute bottom-[-1%]  w-full xl:min-w-[1087px] xl:right-[7%] right-0' />

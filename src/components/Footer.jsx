@@ -2,6 +2,7 @@ import logo from '../assets/images/png/footer-logo.png'
 import { Facebook, FooterLastLineSvg, Insta, Linkedin, Telegram, Twitter } from './common/Icon'
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
     return (
         <>
             <div className=' pt-[40px] sm:pt-[84px] border-t-[1px] border-[#232323]' id='footer'>
@@ -35,7 +36,7 @@ const Footer = () => {
                     </div>
                     <hr className=' w-full border-[1px] border-solid border-[#F9F9F70A] my-4 sm:my-8' />
                     <div className=' flex items-center justify-between pb-4 sm:pb-[33px]'>
-                        <span className=' font-poppins font-normal text-xs sm:text-base opacity-50 leading-[19.2px] text-[#F9F9F7B2]'>Copyright@2024 Hyperion</span>
+                        <span className=' font-poppins font-normal text-xs sm:text-base opacity-50 leading-[19.2px] text-[#F9F9F7B2]'>Copyright@{currentYear} Hyperion</span>
                         <span className=' font-poppins font-normal text-sm sm;text-base opacity-50 leading-[19.2px] text-[#F9F9F7B2] flex items-center gap-1 sm:gap-2'>Designed by <FooterLastLineSvg /></span>
                     </div>
                 </div>

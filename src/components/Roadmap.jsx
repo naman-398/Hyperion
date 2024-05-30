@@ -6,9 +6,7 @@ import web2 from '../assets/images/webp/white-bg-web2.webp';
 import icon1 from '../assets/images/svg/hand-shake.svg';
 import icon2 from '../assets/images/svg/headphone.svg';
 import icon3 from '../assets/images/svg/market-up.svg';
-import icon4 from '../assets/images/svg/icon-left-border-img.svg';
-
-import semicircle from '../assets/images/png/semicircle.png';
+import semicircle from '../assets/images/svg/semicircle.svh.svg';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useRef, useEffect } from 'react';
