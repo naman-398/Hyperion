@@ -14,10 +14,9 @@ const AiDriven = () => {
                 </div>
                 <div className=' flex flex-wrap justify-center flex-row -mx-3 mt-[30px] sm:mt-[64px]'>
                     <div className=' w-full sm:w-1/2 lg:w-1/3 px-3'>
-                        <div className='border-[1px] max-w-[440px] mx-auto lg:mx-0 border-solid border-[#F9F9F714] bg-[#1616168A] rounded-[24px] overflow-hidden aiDrivencard h-full'>
-                            <div className=' max-w-[440px] max-h-[313px] rounded-tl-[24px] rounded-tr-[24px] overflow-hidden '>
-                                <img src={AIdriven1} alt="aidriven" className='aidriven aiDrivenimg duration-300 ' />
-                            </div>
+                        <div className='border-[1px] aiDrivencard max-w-[440px] mx-auto lg:mx-0 border-solid border-[#F9F9F714] bg-[#1616168A] rounded-[24px] overflow-hidden h-full aiDri'>
+        <div class="max-w-[440px] max-h-[313px] overflow-hidden">
+                                <img src={AIdriven1} alt="aidriven" className='duration-300 aiDrivenimg ' /></div>
                             <div className=' p-5 sm:p-6 xl:p-12'>
                                 <p className=' text-transparent bg-clip-text bg-text_gradient1 font-poppins font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] tracking-[-2%] pb-2 sm:pb-6'>AI-Driven insights</p>
                                 <p className=' font-poppins font-normal text-base leading-[20.8px] text-snow_drift opacity-70'>Uncover market trends and trading opportunities with a single click. Hyperion-AI analyzes real-time data, giving you 360° insights for confident trading decisions at minimum risk.</p>
@@ -25,23 +24,24 @@ const AiDriven = () => {
                         </div>
                     </div>
                     <div className=' w-full sm:w-1/2 lg:w-1/3 px-3 mt-5 sm:mt-0'>
-                    <div className='border-[1px] max-w-[440px] mx-auto lg:mx-0 border-solid border-[#F9F9F714] bg-[#1616168A] rounded-[24px] overflow-hidden aiDrivencard h-full'>
-                        <div className=' max-w-[440px] max-h-[313px] rounded-tl-[24px] rounded-tr-[24px] overflow-hidden '>
-                                <img src={AIdriven2} alt="aidriven" className='aidriven aiDrivenimg duration-300   ' />
-                            </div>
-                            <div className=' p-5 sm:p-6 xl:p-12'>
-                                <p className=' text-transparent bg-clip-text bg-text_gradient1 font-poppins font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] tracking-[-2%] pb-2 sm:pb-6'>Multi-chain trading</p>
-                                <p className=' font-poppins font-normal text-base leading-[20.8px] text-snow_drift opacity-70'>Diversify your portfolio and explore new low-risk trading opportunities with our multi-chain trading capabilities. Trade across multiple chains and access a wide range of tokens and pairs – all from a single platform.</p>
-                            </div>
-                        </div>
+                    <div class="aiDrivencard border-[1px] max-w-[440px] mx-auto lg:mx-0 border-solid border-[#F9F9F714] bg-[#1616168A] rounded-[24px] overflow-hidden h-full group">
+    <div class="flex flex-col-reverse">
+        <div class="max-w-[440px] max-h-[313px] min-h-[313px] overflow-hidden">
+            <img src={AIdriven2} alt="aidriven" class=" duration-300 h-full w-full aiDrivenimg" />
+        </div>
+        <div class="p-5 sm:p-6 xl:p-12 duration-500 ease-linear transform">
+            <p class="text-transparent bg-clip-text bg-text_gradient1 font-poppins font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] tracking-[-2%] pb-2 sm:pb-6">Multi-chain trading</p>
+            <p class="font-poppins font-normal text-base leading-[20.8px] text-snow_drift opacity-70">Diversify your portfolio and explore new low-risk trading opportunities with our multi-chain trading capabilities. Trade across multiple chains and access a wide range of tokens and pairs – all from a single platform.</p>
+        </div>
+    </div>
+                    </div>
                     </div>
                     <div className=' w-full sm:w-1/2 lg:w-1/3 px-3 mt-5 sm:mt-6 lg:mt-0'>
-                        <div className='border-[1px] max-w-[440px] mx-auto lg:mx-0 border-solid border-[#F9F9F714] bg-[#1616168A] rounded-[24px] overflow-hidden aiDrivencard h-full'>
-                            <div className=' max-w-[440px] max-h-[313px] rounded-tl-[24px] rounded-tr-[24px] overflow-hidden '>
-                                <img src={AIdriven3} alt="aidriven" className='aidriven aiDrivenimg duration-300 ' />
-                            </div>
+                        <div className='aiDrivencard border-[1px] max-w-[440px] mx-auto lg:mx-0 border-solid border-[#F9F9F714] bg-[#1616168A] rounded-[24px] overflow-hidden h-full'>
+        <div class="max-w-[440px] max-h-[313px] overflow-hidden">
+                                <img src={AIdriven3} alt="aidriven" className=' duration-300 aiDrivenimg ' /></div>
                             <div className=' p-5 sm:p-6 xl:pb-12 xl:px-12 xl:pt-[39px]'>
-                                <p className=' text_driven text-transparent bg-clip-text bg-text_gradient1 font-poppins font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] tracking-[-2%] pb-2 sm:pb-6'>Lightning-fast execution</p>
+                                <p className=' text-transparent bg-clip-text bg-text_gradient1 font-poppins font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] tracking-[-2%] pb-2 sm:pb-6'>Lightning-fast execution</p>
                                 <p className=' font-poppins font-normal text-base leading-[20.8px] text-snow_drift opacity-70'>Execute trades with lightning-fast speed and precision. Our platform is built for performance, ensuring that you never miss out on that perfect trading opportunity!</p>
                             </div>
                         </div>

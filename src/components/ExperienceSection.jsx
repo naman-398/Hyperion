@@ -13,7 +13,7 @@ const ExperienceSection = () => {
                     <p className=' text-transparent bg-clip-text bg-text_gradient1 tracking-[-2%] text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] font-poppins font-medium pb-3 mt-3 sm:mt-6 md:mt-12 sm:pb-6 text-center md:text-start '>Struggling with extensive research on tokens?</p>
                     <p className=' font-poppins font-normal  opacity-70 leading-5 text-snow_drift text-center md:text-start lg:max-w-[293px]'>Hyperion-AI streamlines the process for you.</p>
                 </div>
-                <div className=' experience-card w-full md:w-1/2 lg:w-1/3 py-6 md:py-0 xl:columns-auto max-w-[480px] md:max-w-[436px] px-3 xl:[47.5px_0] lg:border-r-[1px] border-b-[1px] border-solid md:border-b-0 border-[#F9F9F70F] md:min-h-[325px]'>
+                <div className=' experience-card w-full md:w-1/2 lg:w-1/3 py-6 md:py-0 xl:columns-auto max-w-[480px] md:max-w-[436px] px-3 xl:p-[0_47.5px] lg:border-r-[1px] border-b-[1px] border-solid md:border-b-0 border-[#F9F9F70F] md:min-h-[325px]'>
                     <div className=' w-[75px] experience-card-box duration-300 sm:w-[92px] p-[16px] sm:p-[26px] rounded-[24px] border-[1px] border-solid border-[#F9F9F714] bg-[#1F1F1F8A] mx-auto md:mx-0'>
                         <Chart />
                     </div>
