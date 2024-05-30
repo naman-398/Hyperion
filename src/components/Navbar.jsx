@@ -33,15 +33,13 @@ const Navbar = () => {
                         <li>
                             <a onClick={show} href="#footer" className=' opacity-70 relative after:absolute after:w-0 after:h-[1px] after:rounded-[20px] after:bg-snow_drift after:left-[50%] after:bottom-[-2px] hover:after:w-full hover:after:left-0 after:duration-300'>Get support</a>
                         </li>
-                        <button className=' sm:hidden bg-yellow_gradient p-[14.5px_29.2px] overflow-hidden relative hover:brightness-150 duration-500 group rounded-[100px] font-poppins font-medium  text-base leading-5 text-night'>
-                            <span className=' -top-[150%] bg-yellow_gradient left-0 inline-flex w-80 h-[5px] group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)] opacity-50 absolute '></span>
-                            Start trading
+                        <button className=' sm:hidden after:absolute after:w-full after:h-full after:duration-300 duration-300 ease-linear hover:text-snow_drift after:left-0 after:top-0 after:z-0 after:bg-yellow_gradient overflow-hidden hover:after:opacity-0 after:opacity-[1] bg-yellow_gradient1 relative  rounded-[100px] font-poppins font-medium  text-base leading-5 text-night'>
+                           <span className=' relative z-[1]'>Start trading</span>
                         </button>
                     </ul>
                     <div className=' flex items-center gap-5'>
-                        <button className=' hidden sm:block bg-yellow_gradient p-[14.5px_29.2px] rounded-[100px] overflow-hidden relative hover:brightness-100 duration-500 group font-poppins font-medium  text-base leading-5 text-night'>
-                            <span className=' -top-[150%] left-0 bg-yellow_gradient inline-flex w-80 h-[5px] group-hover:top-[150%] shadow-yellow-400 duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)] opacity-50 absolute '></span>
-                            Start trading
+                        <button className=' hidden sm:block p-[14.5px_29.2px] after:absolute after:w-full after:h-full after:duration-300 duration-300 ease-linear hover:text-snow_drift after:left-0 after:top-0 after:z-0 after:bg-yellow_gradient overflow-hidden hover:after:opacity-0 after:opacity-[1] bg-yellow_gradient1  rounded-[100px] relative font-poppins font-medium  text-base leading-5 text-night'>
+                        <span className=' relative z-[1]'>Start trading</span>
                         </button>
                         <span onClick={show} className=' block lg:hidden relative z-[11]'>{first === false ? <Navline /> : <Navcross />}</span>
                     </div>

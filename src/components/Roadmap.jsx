@@ -44,7 +44,7 @@ const Roadmap = () => {
                             <div className='rounded-full inline relative'><img src={icon1} alt="icon" />
                             <img src={semicircle} alt="semicircle" className='semicircle absolute left-[-13.5%] top-[-84%]' data-index="0" />
                             </div>
-                            <p className='font-poppins text_gredient1 mt-6 text-transparent bg-clip-text font-medium text-[36px] sm:text-[40px] md:text-[48px] lg:text-[56px] md:leading-[56px] leading-[40px] sm:leading-[46px] max-w-[500px]'>Join the Hyperion family</p>
+                            <p className='font-poppins text_gredient1 mt-6 text-transparent bg-clip-text font-medium text-[26px] 576:text-[30px] sm:text-[38px] md:text-[44px] lg:text-[50px] xl:text-[56px] md:leading-[56px] leading-[36px] 576:leading-[40px] sm:leading-[46px] max-w-[500px]'>Join the Hyperion family</p>
                             <p className='mt-6 font-poppins text-snow_drift max-w-[618px] opacity-70 text-[16px] sm:text-[18px] leading-[23.4px] font-normal'>Embrace the Hyperion Revolution by joining a global community of new and seasoned traders who support each other. Share your wins, insights, and strategies, seek expert opinions, get feedback, and collaborate with like-minded traders.</p>
                         </div>
                         <div className="md:w-10/12 w-full lg:w-6/12 px-3">
@@ -58,7 +58,7 @@ const Roadmap = () => {
                             <div className='relative'><img src={icon2} alt="icon" />
                             <img src={semicircle} alt="semicircle" className='semicircle absolute left-[-13.5%] top-[-84%]' data-index="1" />
                             </div>
-                            <p className='font-poppins text_gredient1 mt-6 text-transparent bg-clip-text font-medium text-[36px] sm:text-[40px] md:text-[48px] lg:text-[56px] md:leading-[56px] leading-[40px] sm:leading-[46px] max-w-[594px]'>Expert support, every step of the way</p>
+                            <p className='font-poppins text_gredient1 mt-6 text-transparent bg-clip-text font-medium text-[26px] 576:text-[30px] sm:text-[38px] md:text-[44px] lg:text-[50px] xl:text-[56px] md:leading-[56px] leading-[36px] 576:leading-[40px] sm:leading-[46px] max-w-[594px]'>Expert support, every step of the way</p>
                             <p className='mt-6 font-poppins text-snow_drift max-w-[618px] opacity-70 text-[16px] sm:text-[18px] leading-[23.4px] font-normal'>At Hyperion, our team of experts is dedicated to your success. Get personalized support and guidance whenever you need it — whether it's about platform features or refining your trading strategy.</p>
                         </div>
                         <div className="md:w-10/12 w-full lg:w-6/12 px-3">
@@ -72,7 +72,7 @@ const Roadmap = () => {
                             <div className='relative'><img src={icon3} alt="icon" className='border-l-yellow-500 border-solid ' />
                             <img src={semicircle} alt="semicircle" className='semicircle absolute left-[-13.7%] top-[-88%]' data-index="2" />
                             </div>
-                            <p className='font-poppins text_gredient1 mt-6 text-transparent bg-clip-text font-medium max-w-[478px] text-[36px] sm:text-[40px] md:text-[48px] lg:text-[56px] md:leading-[56px] leading-[40px] sm:leading-[46px]'>Ready to trade like a pro?</p>
+                            <p className='font-poppins text_gredient1 mt-6 text-transparent bg-clip-text font-medium max-w-[478px] text-[26px] 576:text-[30px] sm:text-[38px] md:text-[44px] lg:text-[50px] xl:text-[56px] md:leading-[56px] leading-[36px] 576:leading-[40px] sm:leading-[46px]'>Ready to trade like a pro?</p>
                             <p className='mt-6 font-poppins text-snow_drift max-w-[618px] opacity-70 text-[16px] sm:text-[18px] leading-[23.4px] font-normal'>Up your trading game with Hyperion. Join thousands of traders already benefiting from our platform and start your AI-powered Perps Trading journey today.</p>
                         </div>
                         <div className="md:w-10/12 w-full lg:w-6/12 px-3">
