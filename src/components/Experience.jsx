@@ -13,7 +13,9 @@ const Experience = () => {
                             </p>
                             <p className='text-center max-lg:mx-auto lg:text-start  mt-2 md:mt-3 lg:mb-12 md:mb-10 mb-6 font-poppins text-snow_drift max-w-[618px] opacity-70 text-[16px] lg:text-[18px] leading-[23.4px] font-normal'>Whether you're a seasoned trader or just starting your trading journey, our platform is designed to meet your needs and exceed your expectations.
                             </p>
-                            <Commonbtn text="Start trading" />
+                            <div className=' text-center lg:text-start'>
+                                <Commonbtn text="Start trading" />
+                            </div>
                         </div>
                     </div>
                 </div>
