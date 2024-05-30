@@ -12,7 +12,7 @@ const Features = () => {
                     <div className="flex flex-row border-b-[1px] pb-12 border-b-[#1E1E1F] flex-wrap">
                         {featuredata.map((obj, index) => {
                             return (
-                                <div className={`${index == 0 ? " max-[1200px]:flex items-center justify-center min-[1200px]:w-[32.3%] w-full md:w-[50%]  md:pr-3" : index == 1 ? "md:border-l-[1px] border-l-[#1E1E1F] min-[1200px]:border-r-[1px] mt-12 md:mt-0 flex md:pl-3 min-[1200px]:px-3 items-center justify-center min-[1200px]:w-[35.4%] w-full md:w-[50%] border-r-[#1E1E1F]" : index == 2 ? " min-[1200px]:w-[32.3%] w-full min-[1200px]:pl-3 flex items-center justify-center max-[1200px]:mt-12 min-[1200px]:items-end flex-col" : ""} h-full`}>
+                                <div className={`${index === 0 ? " max-[1200px]:flex items-center justify-center min-[1200px]:w-[32.3%] w-full md:w-[50%]  md:pr-3" : index === 1 ? "md:border-l-[1px] border-l-[#1E1E1F] min-[1200px]:border-r-[1px] mt-12 md:mt-0 flex md:pl-3 min-[1200px]:px-3 items-center justify-center min-[1200px]:w-[35.4%] w-full md:w-[50%] border-r-[#1E1E1F]" : index === 2 ? " min-[1200px]:w-[32.3%] w-full min-[1200px]:pl-3 flex items-center justify-center max-[1200px]:mt-12 min-[1200px]:items-end flex-col" : ""} h-full`}>
                                     <div className=" min-[1200px]:max-w-[392px] max-w-[450px]">
                                         <img src={obj.img} alt="img" className="w-[392px] h-[294px]" />
                                         <p className='text-center md:text-start  text_gredient1 text-transparent bg-clip-text font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] lg:mt-12 mt-5 md:mt-9 lg:mb-6 mb-3 font-poppins'>{obj.title}</p>

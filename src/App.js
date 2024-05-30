@@ -25,7 +25,6 @@ function App() {
       <Features />
       <Experience />
       <Familihype />
-      {/* <Footer /> */}
     </div>
   );
 }
