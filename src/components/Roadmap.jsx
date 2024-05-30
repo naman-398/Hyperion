@@ -7,6 +7,7 @@ import icon1 from '../assets/images/svg/hand-shake.svg';
 import icon2 from '../assets/images/svg/headphone.svg';
 import icon3 from '../assets/images/svg/market-up.svg';
 import icon4 from '../assets/images/svg/icon-left-border-img.svg';
+
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useRef, useEffect } from 'react';
