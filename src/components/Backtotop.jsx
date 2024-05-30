@@ -24,7 +24,7 @@ window.addEventListener('scroll', () => {
     <button className={`back-to-top ${isVisible ? 'visible' : ''} fixed shadow-[0px_0px_16px_1px_#F2C922] rounded-full animate-bounce bottom-[20px] right-[20px] z-[99]`}
     onClick={scrollToTop}
     style={{ display: isVisible ? 'block' : 'none',}} >
-        <div className=' p-[10px] 576:p-[15px] rounded-full bg-yellow_gradient flex justify-center items-center hover:animate-bounce'>
+        <div className=' p-[10px] 576:p-[15px] rounded-full bg-yellow_gradient flex justify-center items-center'>
             <Backtotopicon/>
 </div>
 </button>
