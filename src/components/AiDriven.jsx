@@ -25,13 +25,13 @@ const AiDriven = () => {
                         </div>
                     </div>
                     <div className=' w-full sm:w-1/2 lg:w-1/3 px-3 mt-5 sm:mt-0'>
-                        <div className='border-[1px] max-w-[440px] mx-auto lg:mx-0 border-solid border-[#F9F9F714] bg-[#1616168A] rounded-[24px] overflow-hidden aiDrivencard h-full'>
+                    <div className='border-[1px] max-w-[440px] mx-auto lg:mx-0 border-solid border-[#F9F9F714] bg-[#1616168A] rounded-[24px] overflow-hidden aiDrivencard h-full'>
+                        <div className=' max-w-[440px] max-h-[313px] rounded-tl-[24px] rounded-tr-[24px] overflow-hidden '>
+                                <img src={AIdriven2} alt="aidriven" className='aidriven aiDrivenimg duration-300   ' />
+                            </div>
                             <div className=' p-5 sm:p-6 xl:p-12'>
                                 <p className=' text-transparent bg-clip-text bg-text_gradient1 font-poppins font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] tracking-[-2%] pb-2 sm:pb-6'>Multi-chain trading</p>
                                 <p className=' font-poppins font-normal text-base leading-[20.8px] text-snow_drift opacity-70'>Diversify your portfolio and explore new low-risk trading opportunities with our multi-chain trading capabilities. Trade across multiple chains and access a wide range of tokens and pairs – all from a single platform.</p>
-                            </div>
-                            <div className=' max-w-[440px] max-h-[313px] rounded-bl-[24px] rounded-br-[24px] overflow-hidden '>
-                                <img src={AIdriven2} alt="aidriven" className='aidriven aiDrivenimg duration-300 ' />
                             </div>
                         </div>
                     </div>
