@@ -17,18 +17,18 @@ import Backtotop from './components/Backtotop';
 function App() {
   return (
     <div className=' overflow-hidden bg-[#0B0B0B]'>
-      <Loadersection/>
-      <Backtotop/>
+      <Loadersection />
+      <Backtotop />
       <Herosection />
       <EaseAndDiversity />
       <Hperionsection />
       <MissionSection />
       <ExperienceSection />
-      <AiDriven/>
+      <AiDriven />
       <Roadmap />
       <Abouthype />
-      <Features />
       <Experience />
+      <Features />
       <Familihype />
       <Footer />
     </div>
