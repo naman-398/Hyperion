@@ -1,14 +1,39 @@
-import trade1 from '../assets/images/webp/roadmap-img1.webp'
-import trade2 from '../assets/images/webp/roadmap-img2.webp'
-import trade3 from '../assets/images/webp/roadmap-img3.webp'
-import web from '../assets/images/webp/white-bg-web.webp'
-import web2 from '../assets/images/png/white-bg-web2.png'
-import icon1 from '../assets/images/svg/hand-shake.svg'
-import icon2 from '../assets/images/svg/headphone.svg'
-import icon3 from '../assets/images/svg/market-up.svg'
-import icon4 from '../assets/images/svg/icon-left-border-img.svg'
+import trade1 from '../assets/images/webp/roadmap-img1.webp';
+import trade2 from '../assets/images/webp/roadmap-img2.webp';
+import trade3 from '../assets/images/webp/roadmap-img3.webp';
+import web from '../assets/images/webp/white-bg-web.webp';
+import web2 from '../assets/images/webp/white-bg-web2.webp';
+import icon1 from '../assets/images/svg/hand-shake.svg';
+import icon2 from '../assets/images/svg/headphone.svg';
+import icon3 from '../assets/images/svg/market-up.svg';
+import icon4 from '../assets/images/svg/icon-left-border-img.svg';
+
+import semicircle from '../assets/images/png/semicircle.png';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useRef, useEffect } from 'react';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Roadmap = () => {
+    const timeline = useRef(null);
+
+    useEffect(() => {
+        const tl = timeline.current;
+
+        gsap.fromTo(
+            '.timeline_line',
+            { height: '0%' },
+            {
+                height: '100%',
+                scrollTrigger: {
+                    trigger: tl,
+                    scrub: true,
+                },
+            }
+        );
+
+    }, []);
 
     return (
         <>
@@ -20,7 +45,7 @@ const Roadmap = () => {
                         <div className=' flex flex-wrap pt-[60px] lg:pt-[50px] xl:pt-0 mx-[-12px] flex-col lg:flex-row relative items-center z-10 sm:pl-[50px] pl-8'>
                             <img src={web2} alt="web-img" aria-label='bg web in roadmap' className='absolute max-w-[1440px] z-[-1] top-[-20%] left-0' />
                             <div className=' md:w-10/12 w-full lg:w-6/12 px-3'>
-                                <div className='relative max-w-[64px]'><img src={icon1} alt="icon" className=' w-[40px] h-[40px] sm:w-[64px] sm:h-[64px]'/>
+                                <div className='relative max-w-[64px]'><img src={icon1} alt="icon" className=' w-[40px] h-[40px] sm:w-[64px] sm:h-[64px]' />
                                     <img src={icon4} alt="icon" aria-label='border left for icon' className=' absolute left-[-2px] top-[27%] sm:top-[25%] timeline_blur max-sm:w-[4px]' />
                                     <div className=' w-[50px] bg-lighting_yellow h-[1px] left-[-27px] sm:left-[-44px] timeline_blur shadow-[0_0_20px_1px_#F2C922] z-[-1] md:left-[-50px] absolute top-[50%]  xl:[top-7%]'></div>
                                 </div>
@@ -34,7 +59,7 @@ const Roadmap = () => {
                         <div className=' flex flex-wrap mx-[-12px] flex-col lg:flex-row relative items-center z-10 sm:pl-[50px] pl-8'>
                             <img src={web} alt="web-img" aria-label='bg web in roadmap' className='absolute max-w-[1440px] h-[929px] z-[-1] top-[-30%] right-0' />
                             <div className=' md:w-10/12 w-full lg:w-6/12 px-3'>
-                                <div className='relative max-w-[64px]'><img src={icon2} alt="icon" className=' w-[40px] h-[40px] sm:w-[64px] sm:h-[64px]'/>
+                                <div className='relative max-w-[64px]'><img src={icon2} alt="icon" className=' w-[40px] h-[40px] sm:w-[64px] sm:h-[64px]' />
                                     <img src={icon4} alt="icon" aria-label='border left for icon' className=' absolute left-[-2px] top-[27%] sm:top-[25%] timeline_blur max-sm:w-[4px]' />
                                     <div className=' w-[50px] bg-lighting_yellow timeline_blur shadow-[0_0_20px_1px_#F2C922] h-[1px] left-[-27px] sm:left-[-44px] z-[-1] md:left-[-50px] absolute top-[50%]  xl:[top-7%]'></div>
                                 </div>
@@ -48,7 +73,7 @@ const Roadmap = () => {
                         <div className=' flex flex-wrap mx-[-12px] flex-col lg:flex-row relative items-center z-10 sm:pl-[50px] pl-8'>
                             <img src={web2} alt="web-img" aria-label='bg web in roadmap' className='absolute max-w-[1440px] z-[-1] top-[-20%] left-0' />
                             <div className=' md:w-10/12 w-full lg:w-6/12 px-3'>
-                                <div className='relative max-w-[64px]'><img src={icon3} alt="icon" className=' w-[40px] h-[40px] sm:w-[64px] sm:h-[64px]'/>
+                                <div className='relative max-w-[64px]'><img src={icon3} alt="icon" className=' w-[40px] h-[40px] sm:w-[64px] sm:h-[64px]' />
                                     <img src={icon4} alt="icon" aria-label='border left for icon' className=' absolute left-[-2px] top-[27%] sm:top-[25%] timeline_blur max-sm:w-[4px]' />
                                     <div className=' w-[50px] bg-lighting_yellow timeline_blur shadow-[0_0_20px_1px_#F2C922] h-[1px] left-[-27px] sm:left-[-44px] z-[-1] md:left-[-50px] absolute top-[50%]  xl:[top-7%]'></div>
                                 </div>
@@ -63,7 +88,7 @@ const Roadmap = () => {
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-export default Roadmap
+export default Roadmap;

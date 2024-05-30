@@ -14,7 +14,7 @@ const Abouthype = () => {
                     </div>
 
                 </div>
-                <div className='  overflow-x-scroll overflow-y-hidden'>
+                <div className='  overflow-x-scroll overflow-y-hidden Xscollbar'>
                     <div className=' ml-auto pl-3 md:mt-14 mt-10 sm:mt-12 lg:mt-16 w-[1550px] md:w-[1800px] lg:w-[1980px] xl:ml-[calc((100%-1352px)/2)] flex flex-row gap-8 overflow_box'>
                         <div className='relative box_about bg-no-repeat bg-center md:h-[400px] h-[300px] sm:[350px] lg:h-[513px] z-10 w-[750px] md:w-[850px] lg:w-[964px] flex items-center justify-center'>
                             <img src={dashboard} alt="dashboard-img" className=' absolute bottom-[1px] max-w-[241px] md:max-w-[330px] lg:max-w-[415px] rounded-bl-[20px] md:rounded-bl-[25px] lg:rounded-bl-[31px] z-[-1] left-[1px]' />
