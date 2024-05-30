@@ -12,7 +12,7 @@ const Familihype = () => {
                         <p className='text-center mt-2 md:mt-3 lg:mb-12 md:mb-10 mb-6 font-poppins text-snow_drift max-w-[816px] opacity-70 text-[16px] lg:text-[18px] leading-[23.4px] font-normal'>Engage in discussions, share insights, share your wins, participate in contests, and strategize with like-minded traders.
                         </p>
                         <button className=' p-[12px_32px] sm:p-[22.5px_52px]  after:absolute after:w-full after:h-full after:duration-300 duration-300 ease-linear hover:text-snow_drift after:left-0 after:top-0 after:z-0 after:bg-yellow_gradient overflow-hidden hover:after:opacity-0 after:opacity-[1] bg-yellow_gradient1 relative  border-[#FFFFFF29]  rounded-[100px] font-poppins font-medium  text-base leading-5 text-night'>
-                           <span className=' relative z-[1]'>Join the Hyperion family</span>
+                            <span className=' relative z-[1]'>Join the Hyperion family</span>
                         </button>
                     </div>
                 </div>

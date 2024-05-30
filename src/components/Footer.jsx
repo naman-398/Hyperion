@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className='max-w-[1409px] mx-auto px-3'>
                     <div className="flex flex-wrap items-start justify-between flex-row -mx-3">
                         <div className=" w-full md:w-1/2 xl:w-5/12 px-3">
-                           <a href="#"> <img src={logo} alt="logo" className=' max-w-[249px] lg:mb-8 sm:mb-6 mb-4 mx-auto md:mx-0' /></a>
+                            <a href="#"> <img src={logo} alt="logo" className=' max-w-[249px] lg:mb-8 sm:mb-6 mb-4 mx-auto md:mx-0' /></a>
                             <p className='text-[#B1B1B0] text-base font-normal max-w-[548px] font-poppins leading-[20.8px] mx-auto md:mx-auto text-center md:text-start'>Curious about AI-powered trading and how it can help you up your game? Reach out to our dedicated team today and discover how Hyperion can fool-proof your future trades.
                             </p>
                             <div className='flex sm:gap-[17px] gap-3 lg:mt-12 md:mt-10 sm:mt-8 mt-4 justify-center md:justify-start'>
@@ -29,8 +29,8 @@ const Footer = () => {
                                 <li className='text-base text-[#B1B1B0] font-poppins flex-nowrap flex font-normal leading-[20.8px]'> <a href="#footer" className=' relative after:absolute after:w-0 after:h-[1px] after:rounded-[20px] after:bg-snow_drift after:left-[50%] after:bottom-[-2px] hover:after:w-full hover:after:left-0 after:duration-300'> Get support</a></li>
                             </ul>
                             <div className=' xl:mt-[84px] flex flex-col mt-auto'>
-                            <a href="tel:123467890" className=' font-poppins font-normal text-base sm:text-lg leading-[23.4px] text-snow_drift  ms-auto'>+1 (0801) 590-75-66</a>
-                            <a href="mailto:hyperion@gmail.com" className=' font-poppins font-normal text-base sm:text-lg leading-[23.4px] text-snow_drift pt-4 sm:pt-6 ms-auto'>hyperion@gmail.com</a>
+                                <a href="tel:123467890" className=' font-poppins font-normal text-base sm:text-lg leading-[23.4px] text-snow_drift  ms-auto'>+1 (0801) 590-75-66</a>
+                                <a href="mailto:hyperion@gmail.com" className=' font-poppins font-normal text-base sm:text-lg leading-[23.4px] text-snow_drift pt-4 sm:pt-6 ms-auto'>hyperion@gmail.com</a>
                             </div>
                         </div>
                     </div>

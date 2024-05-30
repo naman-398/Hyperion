@@ -15,23 +15,38 @@ import Loadersection from './components/Loadersection';
 import Backtotop from './components/Backtotop';
 
 function App() {
-  return (
-    <div className=' overflow-hidden bg-[#0B0B0B]'>
-      <Loadersection />
-      <Backtotop />
-      <Herosection />
-      <EaseAndDiversity />
-      <Hperionsection />
-      <MissionSection />
-      <ExperienceSection />
-      <AiDriven />
-      <Roadmap />
-      <Abouthype />
-      <Experience />
-      <Features />
-      <Familihype />
-      <Footer />
-    </div>
+  return ( <
+    div className = ' overflow-hidden bg-[#0B0B0B]' >
+    <
+    Loadersection / >
+    <
+    Backtotop / >
+    <
+    Herosection / >
+    <
+    EaseAndDiversity / >
+    <
+    Hperionsection / >
+    <
+    MissionSection / >
+    <
+    ExperienceSection / >
+    <
+    AiDriven / >
+    <
+    Roadmap / >
+    <
+    Abouthype / >
+    <
+    Experience / >
+    <
+    Features / >
+    <
+    Familihype / >
+    <
+    Footer / >
+    <
+    /div>
   );
 }
 
