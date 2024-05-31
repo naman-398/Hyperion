@@ -4,7 +4,7 @@ import Commonbtn from './common/Commonbtn'
 const Experience = () => {
     return (
         <>
-            <div className='xl:mt-140 lg:mt-[100px] md:mt-[80px] mt-14 sm:mt-16 px-3'>
+            <div className='xl:mt-[140px] lg:mt-[100px] md:mt-[80px] mt-14 sm:mt-16 px-3'>
                 <div className='bg-experience rounded-[32px] bg-center bg-no-repeat max-w-[1488px] mx-auto  xl:py-[120px] lg:py-[95px] md:py-[70px] sm:py-[55px] py-[48px]'>
                     <div className='flex w-100 items-center justify-center lg:justify-start'>
                         <div className='lg:flex flex-col lg:pl-[84px] md:px-4 px-3'>
