@@ -5,7 +5,7 @@ import tik from '../assets/images/svg/tik.svg'
 const Features = () => {
     return (
         <>
-            <div className='xl:mt-140 lg:mt-[100px] md:mt-[80px] mt-14 sm:mt-16 px-3' id='feature'>
+            <div className='xl:mt-[140px] lg:mt-[100px] md:mt-[80px] mt-14 sm:mt-16 px-3' id='feature'>
                 <h2 className='text-center xl:mb-[84px] lg:mb-[70px] md:mb-[55px] mb-10 font-poppins text_gredient1 text-transparent bg-clip-text font-medium text-[26px] 576:text-[30px] sm:text-[38px] md:text-[44px] lg:text-[50px] xl:text-[56px] md:leading-[56px] leading-[36px] 576:leading-[40px] sm:leading-[46px]'>The Hyperion Features
                 </h2>
                 <div className='max-w-[1368px] mx-auto'>
