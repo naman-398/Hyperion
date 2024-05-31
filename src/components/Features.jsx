@@ -18,7 +18,7 @@ const Features = () => {
                                             <img src={obj.img} alt="img" className="w-[392px] h-[294px] group-hover:scale-110 duration-300" />
                                         </div>
                                         <p className='text-center md:text-start  grey_gradient1 text-transparent bg-clip-text font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] lg:mt-12 mt-5 md:mt-9 lg:pb-6 pb-3 font-poppins'>{obj.title}</p>
-                                        <p className='text-center md:text-start font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal max-w-[392px]'>{obj.description}</p>
+                                        <p className='text-center md:text-start font-poppins text-snow_drift opacity-70 text-[14px] md:text-base leading-[20.8px] font-normal max-w-[392px]'>{obj.description}</p>
                                     </div>
                                 </div>
                             )
@@ -28,7 +28,7 @@ const Features = () => {
                         <div className="max-[1380px]:mt-12 max-[1380px]:flex items-center justify-center min-[1380px]:w-[32.3%] h-full ">
                             <div className=" max-w-[392px] aiDrivencard">
                                 <p className='text-center min-[1380px]:text-start  grey_gradient1 text-transparent bg-clip-text font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] lg:pb-6 pb-3 font-poppins'>Integrations</p>
-                                <p className='text-center min-[1380px]:text-start font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal max-w-[392px]'>GMX, SYNTHENTIX, AGGR TRADE, 0x Protocol, TradingView </p>
+                                <p className='text-center min-[1380px]:text-start font-poppins text-snow_drift opacity-70 text-[14px] md:text-base leading-[20.8px] font-normal max-w-[392px]'>GMX, SYNTHENTIX, AGGR TRADE, 0x Protocol, TradingView </p>
                                 <div className=" max-w-[392px] xl:mt-12 lg:mt-10 md:mt-8 mt-6 max-h-[294px] overflow-hidden rounded-3xl border-[1px] border-solid  border-[#F9F9F714]"><img src={graphimg} alt="img" className=" w-full h-full aiDrivenimg duration-300 " /></div>
                             </div>
                         </div>
@@ -38,36 +38,36 @@ const Features = () => {
                                 <div className=" flex flex-col max-w-[600px]">
                                     <p className='text-center lg:text-start  grey_gradient1 text-transparent bg-clip-text font-medium text-[24px] md:text-[28px] lg:text-[30px] leading-[30px] lg:pb-6 md:pb-4 pb-3 font-poppins'>AI Trading Indicators
                                     </p>
-                                    <p className='text-center lg:text-start font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Gain a competitive edge with Hyperion's AI trading indicator. Identify the most promising trading pairs and leverage AI-driven analysis for strategic, low-risk trades. </p>
-                                    <p className='text-center lg:text-start mt-3 font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Here’s a breakdown of 10+ trading indicators you’ll get from Hyperion AI for each of your trades: </p>
-                                    <p className="text-snow_drift leading-[23.4px] text-[16px] lg:text-[18px] lg:mt-10 md:mt-6 mt-4 xl:mt-12 font-semibold mb-6">Brief description of current market sentiment and opinion</p>
+                                    <p className='text-center lg:text-start font-poppins text-snow_drift opacity-70 text-[14px] md:text-base leading-[20.8px] font-normal'>Gain a competitive edge with Hyperion's AI trading indicator. Identify the most promising trading pairs and leverage AI-driven analysis for strategic, low-risk trades. </p>
+                                    <p className='text-center lg:text-start mt-3 font-poppins text-snow_drift opacity-70 text-[14px] md:text-base leading-[20.8px] font-normal'>Here’s a breakdown of 10+ trading indicators you’ll get from Hyperion AI for each of your trades: </p>
+                                    <p className="text-snow_drift leading-[23.4px] text-base lg:text-[18px] lg:mt-10 md:mt-6 mt-4 xl:mt-12 font-semibold mb-6">Brief description of current market sentiment and opinion</p>
                                     <div className=" flex items-start justify-start gap-[6px]">
                                         <img src={tik} alt="imgtik" />
-                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Real Time funding rates</p>
+                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-base leading-[20.8px] font-normal'>Real Time funding rates</p>
                                     </div>
                                     <div className=" flex items-start justify-start mt-3 gap-[6px]">
                                         <img src={tik} alt="imgtik" />
-                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Oracle Pricing</p>
+                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-base leading-[20.8px] font-normal'>Oracle Pricing</p>
                                     </div>
                                     <div className=" flex items-start justify-start mt-3 gap-[6px]">
                                         <img src={tik} alt="imgtik" />
-                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Oscillators, Moving Averages, Pivots and their direct relevancy + impact to your potential trade</p>
+                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-base leading-[20.8px] font-normal'>Oscillators, Moving Averages, Pivots and their direct relevancy + impact to your potential trade</p>
                                     </div>
                                     <div className=" flex items-start justify-start mt-3 gap-[6px]">
                                         <img src={tik} alt="imgtik" />
-                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Real Time Order Book</p>
+                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-base leading-[20.8px] font-normal'>Real Time Order Book</p>
                                     </div>
                                     <div className=" flex items-start justify-start mt-3 gap-[6px]">
                                         <img src={tik} alt="imgtik" />
-                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Market Sentiment</p>
+                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-base leading-[20.8px] font-normal'>Market Sentiment</p>
                                     </div>
                                     <div className=" flex items-start justify-start mt-3 gap-[6px]">
                                         <img src={tik} alt="imgtik" />
-                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Total Score for a short/long position</p>
+                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-base leading-[20.8px] font-normal'>Total Score for a short/long position</p>
                                     </div>
                                     <div className=" flex items-start justify-start mt-3 gap-[6px]">
                                         <img src={tik} alt="imgtik" />
-                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-[16px] leading-[20.8px] font-normal'>Closing Statements / Remarks + trade suggestions</p>
+                                        <p className='font-poppins text-snow_drift opacity-70 text-[14px] md:text-base leading-[20.8px] font-normal'>Closing Statements / Remarks + trade suggestions</p>
                                     </div>
                                 </div>
                             </div>
