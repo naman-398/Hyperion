@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
-import HeroBig from "../assets/images/webp/HeroBig.webp";
+import HeroBig from "../assets/images/webp/hero-big.webp";
 import Commonbtn from './common/Commonbtn';
-import headerelipse from "../assets/images/webp/headerelipse.webp";
-import headerelipse2 from "../assets/images/webp/HeaderElispe2.webp";
+import headerelipse from "../assets/images/webp/header-elipse.webp";
+import headerelipse2 from "../assets/images/webp/header-elispe2.webp";
 const Herosection = () => {
     return (
-        <div className=' flex flex-col min-h-screen  bg-center bg-cover md:bg-100% bg-no-repeat  bg-[url(./assets/images/webp/herobg.webp)] '>
+        <div className=' flex flex-col min-h-screen  bg-center bg-cover md:bg-100% bg-no-repeat  bg-[url(./assets/images/webp/hero-bg.webp)] '>
             <div className=' relative z-[3]'>
                 <Navbar />
             </div>
@@ -16,10 +16,10 @@ const Herosection = () => {
                 <div className=' container max-w-[1409px] px-3 mx-auto'>
                     <div className=' flex lg:flex-row flex-wrap -mx-3 items-center  relative z-1'>
                         <div className=' w-full lg:w-7/12 2xl:px-0 px-3 '>
-                            <div className=' p-[8px_12px] rounded-[100px] bg-[url(./assets/images/webp/SubHeadingBg.webp)] bg-100% bg-center bg-no-repeat font-poppins  font-normal  mx-auto lg:mx-0 text-base leading-5 text-snow_drift opacity-70 max-w-[321px] relative'>
+                            <div className=' p-[8px_12px] rounded-[100px] bg-[url(./assets/images/webp/sub-heading-bg.webp)] bg-100% bg-center bg-no-repeat font-poppins  font-normal  mx-auto lg:mx-0 text-base leading-5 text-snow_drift opacity-70 max-w-[321px] relative'>
                                 Permissionless, Limitless & Borderless
                             </div>
-                            <h1 className=' bg-text_gradient1 mt-3 sm:mt-6 text-transparent bg-clip-text font-medium  font-poppins text-[30px] 576:text-[36px] sm:text-[46px] xl:text-[59px] 2xl:text-[68px] leading-[38px] sm:leading-[58px] xl:leading-[68px] text-center lg:text-start'>Welcome to Hyperion —
+                            <h1 className=' bg-grey_gradient1 mt-3 sm:mt-6 text-transparent bg-clip-text font-medium  font-poppins text-[30px] 576:text-[36px] sm:text-[46px] xl:text-[59px] 2xl:text-[68px] leading-[38px] sm:leading-[58px] xl:leading-[68px] text-center lg:text-start'>Welcome to Hyperion —
                                 your ultimate AI-
                                 powered decentralized
                                 perps platform

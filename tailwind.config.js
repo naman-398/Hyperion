@@ -15,7 +15,7 @@ module.exports = {
       backgroundImage: {
         yellow_gradient: 'linear-gradient(97.23deg, #F2C922 -33.73%, #B8860B 100.34%)',
         yellow_gradient1: 'linear-gradient(97.23deg, #B8860B  20.73%, #F2C922 100.34%)',
-        text_gradient1: 'linear-gradient(145.14deg, #F9F9F7 32.81%, #656565 115.23%)',
+        grey_gradient1: 'linear-gradient(145.14deg, #F9F9F7 32.81%, #656565 115.23%)',
       },
       fontFamily: {
         poppins: '"Poppins", sans-serif'
