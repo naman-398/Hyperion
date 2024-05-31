@@ -4,7 +4,7 @@ import trade3 from '../assets/images/webp/roadmap-img3.webp';
 import web from '../assets/images/webp/roadmap-white-bg-web.webp';
 import web2 from '../assets/images/webp/roadmap-white-bg-web2.webp';
 import icon1 from '../assets/images/svg/hand-shake.svg';
-import icon2 from '../assets/images/svg/headphone.svg';
+import icon2 from '../assets/images/svg/head-phone.svg';
 import icon3 from '../assets/images/svg/market-up.svg';
 import icon4 from '../assets/images/svg/icon-left-border-img.svg';
 
