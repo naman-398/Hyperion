@@ -1,6 +1,6 @@
-import feature1 from '../../assets/images/webp/feature-img1.webp'
-import feature2 from '../../assets/images/webp/feature-img2.webp'
-import feature3 from '../../assets/images/webp/feature-img3.webp'
+import feature1 from '../../assets/images/webp/ai-assistant.webp'
+import feature2 from '../../assets/images/webp/multi-chain-features.webp'
+import feature3 from '../../assets/images/webp/advanced-ai.webp'
 
 export const featuredata = [
     {

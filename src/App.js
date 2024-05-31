@@ -1,18 +1,18 @@
 import './App.css';
-import Herosection from './components/Herosection';
-import EaseAndDiversity from './components/Easeanddiversity';
-import Hperionsection from './components/Hperionsection';
-import MissionSection from './components/Missionsection';
-import ExperienceSection from './components/Experiencesection';
-import Abouthype from './components/Abouthype';
-import Experience from './components/Hypexperience';
+import Herosection from './components/HeroSection';
+import EaseAndDiversity from './components/EaseAndDiversity';
+import MissionSection from './components/MissionSection';
+import ExperienceSection from './components/ExperienceSection';
+import Experience from './components/HyperExperience';
 import Features from './components/Features';
 import Roadmap from './components/Roadmap';
-import AiDriven from './components/Aidriven';
+import AiDriven from './components/AiDriven';
 import Footer from './components/Footer';
 import Familihype from './components/Familihype';
-import Loadersection from './components/Loadersection';
-import Backtotop from './components/Backtotop';
+import Loadersection from './components/common/LoaderSection';
+import Backtotop from './components/common/Backtotop';
+import AboutHypesec from './components/AboutHypesec';
+import HyperionSection from './components/HyperionSection';
 
 function App() {
   return (
@@ -21,12 +21,12 @@ function App() {
       <Backtotop />
       <Herosection />
       <EaseAndDiversity />
-      <Hperionsection />
+      <HyperionSection />
       <MissionSection />
       <ExperienceSection />
       <AiDriven />
       <Roadmap />
-      <Abouthype />
+      <AboutHypesec />
       <Experience />
       <Features />
       <Familihype />

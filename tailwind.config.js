@@ -10,12 +10,18 @@ module.exports = {
         bee_yellow: 'DEB21B',
         night: '#0B0B0B',
         snow_drift: '#F9F9F7',
+        snow_drift_light: '#F9F9F714',
+        snow_drift_night: '#F9F9F70F',
+        snow_drift_grey: '#F9F9F70A',
         lighting_yellow: '#F2C922',
+        light_night: '#FFFFFF0A',
+        dark_night: '#FFFFFF29',
+        night_sky: '#232323',
       },
       backgroundImage: {
-        yellow_gradient: 'linear-gradient(97.23deg, #F2C922 -33.73%, #B8860B 100.34%)',
-        yellow_gradient1: 'linear-gradient(97.23deg, #B8860B  20.73%, #F2C922 100.34%)',
-        grey_gradient1: 'linear-gradient(145.14deg, #F9F9F7 32.81%, #656565 115.23%)',
+        yellow_gradient_to_r: 'linear-gradient(97.23deg, #F2C922 -33.73%, #B8860B 100.34%)',
+        yellow_gradient_to_l: 'linear-gradient(97.23deg, #B8860B  20.73%, #F2C922 100.34%)',
+        grey_gradient_to_r: 'linear-gradient(145.14deg, #F9F9F7 32.81%, #656565 115.23%)',
       },
       fontFamily: {
         poppins: '"Poppins", sans-serif'
@@ -24,8 +30,16 @@ module.exports = {
         '576': '576px',
         '1350': '1350px',
       },
-      backgroundSize:{
-        '100%' : '100% 100%'
+      backgroundSize: {
+        '100%': '100% 100%'
+      },
+      fontSize: {
+        mxl: "68px",
+        vxl: "56px",
+        xxl: "44px",
+        mlg: "40px",
+        xlg: "28px",
+        slg: "21.24px"
       }
     },
   },

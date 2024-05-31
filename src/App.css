@@ -8,7 +8,6 @@ html body {
   background-color: #0b0b0b !important;
 }
 
-
 .loader div {
   animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
@@ -64,13 +63,11 @@ html body {
   }
 }
 
-.grey_gradient1 {
+.grey_gradient_to_r {
   background: linear-gradient(145.14deg, #f9f9f7 32.81%, #656565 115.23%);
   -webkit-background-clip: text !important;
 }
-.bg-img-experience1{
-  background-image: url('./assets/images/webp/power-experiencebg.webp');
-}
+
 .timeline_blur {
   filter: blur(1px);
 }

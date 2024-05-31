@@ -1,6 +1,6 @@
 import React from 'react'
-import MissionSectionImg from "../assets/images/webp/mission-section-img.webp";
-import MissionElipse from "../assets/images/webp/missing-elipse.webp";
+import MissionSectionImg from "../assets/images/webp/mission-section-dashboardimg.webp";
+import MissionElipse from "../assets/images/webp/missing-sec-right-elipse.webp";
 import MissionSectionBg from "../assets/images/webp/mission-section-bg.webp";
 import BlackLayer from "../assets/images/webp/black-layer.webp";
 const MissionSection = () => {
@@ -12,7 +12,7 @@ const MissionSection = () => {
                 <div className=' flex flex-wrap -mx-3 flex-col-reverse xl:flex-row '>
                     <div className=' w-full xl:w-1/2 px-3 pt-3 sm:pt-6 xl:pt-[84px] relative z-[2]'>
                         <div className=' xl:max-w-[608px]  xl:me-auto '>
-                            <p className=' text-transparent bg-clip-text bg-grey_gradient1 tracking-[-2%] text-[26px] 576:text-[28px] sm:text-[38px] md:text-[44px] lg:text-[50px] xl:text-[56px] md:leading-[56px] leading-9 576:leading-10 sm:leading-[46px] font-poppins font-medium pb-3 sm:pb-6 md:pb-12 text-center xl:text-start'>Mission Hyperion</p>
+                            <p className=' text-transparent bg-clip-text bg-grey_gradient_to_r tracking-[-2%] text-2xl 576:text-xlg sm:text-4xl md:text-xxl lg:text-5xl xl:text-vxl md:leading-[56px] leading-9 576:leading-10 sm:leading-[46px] font-poppins font-medium pb-3 sm:pb-6 md:pb-12 text-center xl:text-start'>Mission Hyperion</p>
                             <p className=' font-poppins font-normal  text-base sm:text-lg !leading-[23.4px] text-snow_drift opacity-70 mb-2 sm:mb-3 text-center xl:text-start'>Hyperion is powered by a single mission: to provide traders with a unique advantage in an extremely comptetitive landscape and help traders maximize profits while minimzing losses.</p>
                             <p className=' font-poppins font-normal  text-base sm:text-lg !leading-[23.4px] text-snow_drift opacity-70 text-center xl:text-start'>We designed Hyperion for traders of all levels, providing a superior trading experience supported by AI insights and assistance.</p>
                         </div>

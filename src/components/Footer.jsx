@@ -1,11 +1,11 @@
 import logo from '../assets/images/webp/footer-logo.webp'
-import { Facebookicon, FooterLastLineSvg, Instaicon, Linkedinicon, Telegramicon, Twittericon } from './common/Icon'
+import { Facebookicon, FooterLastLineSvg, Instaicon, Linkedinicon, Telegramicon, Twittericon } from './common/Icons'
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
     return (
         <>
-            <div className=' pt-[40px] sm:pt-[84px] border-t-[1px] border-[#232323]' id='footer'>
+            <div className=' pt-[40px] sm:pt-[84px] border-t-[1px] border-night_sky' id='footer'>
                 <div className='max-w-[1409px] mx-auto px-3'>
                     <div className="flex flex-wrap items-start justify-between flex-row -mx-3">
                         <div className=" w-full md:w-1/2 xl:w-5/12 px-3">
@@ -34,7 +34,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <hr className=' w-full border-[1px] border-solid border-[#F9F9F70A] my-4 sm:my-8' />
+                    <hr className=' w-full border-[1px] border-solid border-snow_drift_grey my-4 sm:my-8' />
                     <div className=' flex items-center justify-between pb-4 sm:pb-[33px]'>
                         <span className=' font-poppins font-normal text-xs sm:text-base leading-[19.2px] text-snow_drift opacity-50'>Copyright@{currentYear} Hyperion</span>
                         <span className=' font-poppins font-normal text-sm sm;text-base leading-[19.2px] text-snow_drift opacity-70 flex items-center gap-1 sm:gap-2'>Designed by <FooterLastLineSvg /></span>
