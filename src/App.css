@@ -68,7 +68,9 @@ html body {
   background: linear-gradient(145.14deg, #f9f9f7 32.81%, #656565 115.23%);
   -webkit-background-clip: text !important;
 }
-
+.bg-img-experience1{
+  background-image: url('./assets/images/webp/power-experiencebg.webp');
+}
 .timeline_blur {
   filter: blur(1px);
 }
