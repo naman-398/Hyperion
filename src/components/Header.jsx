@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import HeroBig from "../assets/images/webp/hero-big.webp";
+import HeroBig from "../assets/images/webp/hero-trading-img.webp";
 import headerelipse from "../assets/images/webp/header-elipse.webp";
 import headerelipse2 from "../assets/images/webp/header-elispe2.webp";
 import PrimaryButton from './common/PrimaryButton';
