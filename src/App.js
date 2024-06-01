@@ -7,12 +7,12 @@ import Features from './components/Features';
 import Roadmap from './components/Roadmap';
 import AiDriven from './components/AiDriven';
 import Footer from './components/Footer';
-import Familihype from './components/Familihype';
 import Loadersection from './components/common/LoaderSection';
 import Backtotop from './components/common/Backtotop';
 import AboutHypesec from './components/AboutHypesec';
 import HyperionSection from './components/HyperionSection';
 import Header from './components/Header';
+import FamilyHype from './components/FamilyHype';
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
       <AboutHypesec />
       <Experience />
       <Features />
-      <Familihype />
+      <FamilyHype />
       <Footer />
     </div>
   );

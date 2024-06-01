@@ -1,5 +1,5 @@
 
-const Familihype = () => {
+const FamilyHype = () => {
     return (
         <>
             <div className='bg-family xl:py-[186px] lg:py-[110px] md:py-[75px] sm:py-16 py-12 bg-[url(../src/assets/images/webp/family-bg.webp)] bg_size_100 bg-no-repeat bg-center px-3'>
@@ -20,4 +20,4 @@ const Familihype = () => {
     )
 }
 
-export default Familihype
+export default FamilyHype
