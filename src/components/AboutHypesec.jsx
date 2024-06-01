@@ -18,7 +18,7 @@ const AboutHypesec = () => {
                 </div>
                 <div className='  overflow-x-scroll overflow-y-hidden xscollbar'>
                     <div className=' ml-auto pl-3 md:mt-14 mt-10 sm:mt-12 lg:mt-16 w-[1550px] md:w-[1800px] lg:w-[1980px] xl:ml-[calc((100%-1352px)/2)] flex flex-row gap-8 overflow_box'>
-                        <div className='relative bg-[url(../src/assets/images/webp/box-about-bg.webp)] bg_size_100 bg-no-repeat bg-center md:h-[400px] h-[300px] sm:[350px] lg:h-[513px] z-10 w-[750px] md:w-[850px] lg:w-[964px] flex items-center justify-center'>
+                        <div className='relative bg-[url(../src/assets/images/webp/about-box-bg.webp)] bg_size_100 bg-no-repeat bg-center md:h-[400px] h-[300px] sm:[350px] lg:h-[513px] z-10 w-[750px] md:w-[850px] lg:w-[964px] flex items-center justify-center'>
                             <img src={dashboard} alt="dashboard-img" className=' absolute bottom-[1px] w-[241px] md:w-[330px] lg:w-[415px] rounded-bl-[20px] md:rounded-bl-[25px] lg:rounded-bl-[31px] z-[-1] left-[1px]' />
                             <div className=' ml-auto mr-8 md:mr-10 lg:mr-12 max-w-[440px]'>
                                 <p className=' grey_gradient_to_r text-transparent bg-clip-text font-medium text-2xl md:text-xlg lg:text-3xl leading-[30px] font-poppins'>Superior interface</p>
@@ -29,7 +29,7 @@ const AboutHypesec = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='relative bg-[url(../src/assets/images/webp/box-about-bg.webp)] bg_size_100 bg-no-repeat bg-center md:h-[400px] h-[300px] sm:[350px] lg:h-[513px] z-10 w-[750px] md:w-[850px] lg:w-[964px] flex items-center justify-center'>
+                        <div className='relative bg-[url(../src/assets/images/webp/about-box-bg.webp)] bg_size_100 bg-no-repeat bg-center md:h-[400px] h-[300px] sm:[350px] lg:h-[513px] z-10 w-[750px] md:w-[850px] lg:w-[964px] flex items-center justify-center'>
                             <img src={dashboard2} alt="dashboard-img" className=' absolute bottom-[1px] w-[241px] md:w-[330px] lg:w-[415px] rounded-bl-[20px] md:rounded-bl-[25px] lg:rounded-bl-[31px] z-[-1] left-[1px]' />
                             <div className=' ml-auto mr-8 md:mr-10 lg:mr-12 max-w-[440px]'>
                                 <p className=' grey_gradient_to_r text-transparent bg-clip-text font-medium text-2xl md:text-xlg lg:text-3xl leading-[30px] font-poppins'>Top-Grade performance</p>

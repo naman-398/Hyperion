@@ -12,7 +12,7 @@ const AiDriven = () => {
                         <span className=' min-[1200px]:flex'>unbeatable results </span></h2>
                     <p className=' font-poppins font-normal text-lg leading-[23.4px] text-snow_drift opacity-70 text-center min-[1200px]:text-start mx-auto min-[1200px]:mx-0 min-[1200px]:pt-0 pt-4 max-w-[440px]'>Embrace the future of trading with Hyperion's innovative features:</p>
                 </div>
-                <div className=' flex flex-wrap justify-center flex-row -mx-3 mt-[30px] sm:mt-[64px]'>
+                <div className=' flex flex-wrap justify-center flex-row -mx-3 mt-[30px] sm:mt-16'>
                     <div className=' w-full sm:w-1/2 lg:w-1/3 px-3'>
                         <div className='border-[1px] max-w-[440px] mx-auto lg:mx-0 border-solid border-snow_drift_light bg-dark_red rounded-[24px] overflow-hidden aiDrivencard h-full'>
                             <div className=' max-w-[440px] max-h-[313px] rounded-tl-[24px] rounded-tr-[24px] overflow-hidden '>
