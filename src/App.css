@@ -63,7 +63,7 @@ html body {
   }
 }
 
-.grey_gradient_to_r {
+.grey_gradient {
   background: linear-gradient(145.14deg, #f9f9f7 32.81%, #656565 115.23%);
   -webkit-background-clip: text !important;
 }
@@ -81,7 +81,7 @@ html body {
   display: none;
 }
 
-.aiDrivencard:hover .aiDrivenimg {
+.ai-drivencard:hover .ai-drivenimg {
   transform: scale(1.05);
 }
 

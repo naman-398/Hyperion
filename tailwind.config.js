@@ -19,13 +19,13 @@ module.exports = {
         night_sky: '#232323',
         night_blue: '#191A1B3B',
         dark_red: '#1616168A',
-        light_red:'#1F1F1F8A',
-        dark_voilet:'#1E1E1F',
+        light_red: '#1F1F1F8A',
+        dark_voilet: '#1E1E1F',
       },
       backgroundImage: {
-        yellow_gradient_to_r: 'linear-gradient(97.23deg, #F2C922 -33.73%, #B8860B 100.34%)',
-        yellow_gradient_to_l: 'linear-gradient(97.23deg, #B8860B  20.73%, #F2C922 100.34%)',
-        grey_gradient_to_r: 'linear-gradient(145.14deg, #F9F9F7 32.81%, #656565 115.23%)',
+        yellow_gradient_right: 'linear-gradient(97.23deg, #F2C922 -33.73%, #B8860B 100.34%)',
+        yellow_gradient_left: 'linear-gradient(97.23deg, #B8860B  20.73%, #F2C922 100.34%)',
+        grey_gradient: 'linear-gradient(145.14deg, #F9F9F7 32.81%, #656565 115.23%)',
       },
       fontFamily: {
         poppins: '"Poppins", sans-serif'

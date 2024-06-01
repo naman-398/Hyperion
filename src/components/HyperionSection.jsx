@@ -10,7 +10,7 @@ const HyperionSection = () => {
             <img src={HyperionSectionBg} alt="hyperionbg" className=' absolute  top-[20%] right-0 z-[-1]' />
             <img src={HyperionEllipse} alt="hyperionbg" className=' absolute  top-[-10%] z-[-1] left-0 max-w-[610px]' />
             <div className=' max-w-[1409px] mx-auto px-3'>
-                <h2 className=' xl:max-w-[995px] 1350:ms-5 text-center text-transparent pb-[4px] bg-clip-text bg-grey_gradient_to_r font-poppins tracking-[-2%]  font-medium text-2xl 576:text-3xl sm:text-4xl md:text-xxl lg:text-5xl xl:text-vxl md:leading-[56px] leading-[36px] 576:leading-[40px] sm:leading-[46px]'>   Hyperion isn't just
+                <h2 className=' xl:max-w-[995px] 1350:ms-5 text-center text-transparent pb-[4px] bg-clip-text bg-grey_gradient font-poppins tracking-[-2%]  font-medium text-2xl 576:text-3xl sm:text-4xl md:text-xxl lg:text-5xl xl:text-vxl md:leading-[56px] leading-[36px] 576:leading-[40px] sm:leading-[46px]'>   Hyperion isn't just
                     <span className=' lg:block xl:text-start'> another trading platform – it's your </span>
                     <span className=' xl:flex '> partner in perps trading </span></h2>
                 <div className=' flex flex-wrap -mx-3 flex-row mt-[15px] sm:mt-7 lg:mt-[60px] items-center'>
@@ -20,7 +20,7 @@ const HyperionSection = () => {
                     </div>
                     <div className=' w-full xl:w-1/2 px-3 pt-3 sm:pt-6 xl:pt-0'>
                         <div className=' xl:max-w-[608px]  '>
-                            <p className=' text-transparent bg-clip-text bg-grey_gradient_to_r tracking-[-2%] text-2xl md:text-xlg lg:text-3xl leading-[30px] font-poppins font-medium pb-3 sm:pb-6 text-center xl:text-start'>Decentralized Trade Insights</p>
+                            <p className=' text-transparent bg-clip-text bg-grey_gradient tracking-[-2%] text-2xl md:text-xlg lg:text-3xl leading-[30px] font-poppins font-medium pb-3 sm:pb-6 text-center xl:text-start'>Decentralized Trade Insights</p>
                             <p className=' font-poppins font-normal  text-base sm:text-lg !leading-[23.4px] text-snow_drift opacity-70 mb-2 sm:mb-3 text-center xl:text-start'>With Hyperion-AI, you'll get all the information you need to make a well-informed trade.  Our AI conducts deep technical analysis on every available pair, analyzes the current revelant news, tracks social sentiment, and provides a trade score +  suggestions on your trade.</p>
                             <p className=' font-poppins font-normal  text-base sm:text-lg !leading-[23.4px] text-snow_drift opacity-70 mb-2 sm:mb-3 text-center xl:text-start'>We're focused on giving you the tools and data you need to succeed with ease.</p>
                             <p className=' font-poppins font-normal  text-base sm:text-lg !leading-[23.4px] text-snow_drift opacity-70 mb-3 sm:mb-6 md:mb-12 text-center xl:text-start'>And the best part? Hyperion is decentralized and permissionless — giving you security and complete control over your funds and trades.</p>

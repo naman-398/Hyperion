@@ -19,7 +19,7 @@ const Header = () => {
                             <div className=' p-[8px_12px] rounded-[100px] bg-[url(./assets/images/webp/sub-heading-bg.webp)] bg-100% bg-center bg-no-repeat font-poppins  font-normal  mx-auto lg:mx-0 text-base leading-5 text-snow_drift opacity-70 max-w-[321px] relative'>
                                 Permissionless, Limitless & Borderless
                             </div>
-                            <h1 className=' bg-grey_gradient_to_r mt-3 sm:mt-6 text-transparent bg-clip-text font-medium  font-poppins text-3xl 576:text-4xl sm:text-5xl xl:text-6xl 2xl:text-mxl leading-[38px] sm:leading-[58px] xl:leading-[68px] text-center lg:text-start'>Welcome to Hyperion —
+                            <h1 className=' bg-grey_gradient mt-3 sm:mt-6 text-transparent bg-clip-text font-medium  font-poppins text-3xl 576:text-4xl sm:text-5xl xl:text-6xl 2xl:text-mxl leading-[38px] sm:leading-[58px] xl:leading-[68px] text-center lg:text-start'>Welcome to Hyperion —
                                 your ultimate AI-
                                 powered decentralized
                                 perps platform
