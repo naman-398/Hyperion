@@ -31,99 +31,99 @@ const EaseAndDiversity = () => {
           <div className='w-full lg:w-1/2 px-3'>
             <div className='flex gap-[15px] xl:gap-[38.24px] lg:max-h-[744px] overflow-hidden h-[550px] md:h-[744px] justify-center lg:justify-start'>
               <div className='ease-sap-row flex flex-col gap-[15px] lg:gap-[34px] h-100 my-auto max-w-[191.8px] w-full'>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Solanaicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>Solana</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Ethereumicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>Ethereum</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Litecoinicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>Litecoin</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Cardanoicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>Cardano</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Ethereumicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>Ethereum</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Litecoinicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>Litecoin</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Cardanoicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>Cardano</p>
                 </div>
               </div>
               <div className='ease-sap-row flex flex-col gap-[15px] lg:gap-[34px] max-w-[191.8px] w-full'>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Tethericon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>Tether</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Bitcoinicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>Bitcoin</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Xrpicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>XRP</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Cardanoicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>Cardano</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Tethericon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>Tether</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Bitcoinicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>Bitcoin</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Xrpicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>XRP</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[140px] sm:min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Cardanoicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift -mt-4 sm:mt-0'>Cardano</p>
                 </div>
               </div>
               <div className='ease-sap-row sm:flex flex-col gap-[15px] lg:gap-[34px] h-100 my-auto max-w-[191.8px] w-full hidden'>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Toncoinicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift'>Toncoin</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Usdcicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift'>USDC</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Tronicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift'>TRON</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Litecoinicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift'>Litecoin</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Toncoinicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift'>Toncoin</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Usdcicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift'>USDC</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Tronicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift'>TRON</p>
                 </div>
-                <div className='rounded-[12.75px] bg-[#191A1B3B] border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
+                <div className='rounded-[12.75px] bg-night_blue border-[1px] border-light_night border-solid min-h-[191.8px] max-w-[191.8px] flex-col flex items-center justify-center '>
                   <Litecoinicon />
                   <p className='opacity-70 font-poppins font-normal text-slg leading-[27.61px] text-snow_drift'>Litecoin</p>
                 </div>

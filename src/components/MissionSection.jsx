@@ -1,6 +1,6 @@
 import React from 'react'
 import MissionSectionImg from "../assets/images/webp/mission-section-dashboardimg.webp";
-import MissionElipse from "../assets/images/webp/missing-sec-right-elipse.webp";
+import MissionElipse from "../assets/images/webp/mission-sec-right-elipse.webp";
 import MissionSectionBg from "../assets/images/webp/mission-section-bg.webp";
 import BlackLayer from "../assets/images/webp/black-layer.webp";
 const MissionSection = () => {

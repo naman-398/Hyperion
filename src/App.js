@@ -1,5 +1,4 @@
 import './App.css';
-import Herosection from './components/HeroSection';
 import EaseAndDiversity from './components/EaseAndDiversity';
 import MissionSection from './components/MissionSection';
 import ExperienceSection from './components/ExperienceSection';
@@ -13,13 +12,14 @@ import Loadersection from './components/common/LoaderSection';
 import Backtotop from './components/common/Backtotop';
 import AboutHypesec from './components/AboutHypesec';
 import HyperionSection from './components/HyperionSection';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className=' overflow-hidden bg-[#0B0B0B]'>
+    <div className=' overflow-hidden bg-night'>
       <Loadersection />
       <Backtotop />
-      <Herosection />
+      <Header />
       <EaseAndDiversity />
       <HyperionSection />
       <MissionSection />

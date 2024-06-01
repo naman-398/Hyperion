@@ -14,7 +14,7 @@ const AiDriven = () => {
                 </div>
                 <div className=' flex flex-wrap justify-center flex-row -mx-3 mt-[30px] sm:mt-[64px]'>
                     <div className=' w-full sm:w-1/2 lg:w-1/3 px-3'>
-                        <div className='border-[1px] max-w-[440px] mx-auto lg:mx-0 border-solid border-snow_drift_light bg-[#1616168A] rounded-[24px] overflow-hidden aiDrivencard h-full'>
+                        <div className='border-[1px] max-w-[440px] mx-auto lg:mx-0 border-solid border-snow_drift_light bg-dark_red rounded-[24px] overflow-hidden aiDrivencard h-full'>
                             <div className=' max-w-[440px] max-h-[313px] rounded-tl-[24px] rounded-tr-[24px] overflow-hidden '>
                                 <img src={AIdriven1} alt="aidriven" className=' xl:w-[440px] xl:h-[313px] aidriven aiDrivenimg duration-300 ' />
                             </div>
@@ -25,7 +25,7 @@ const AiDriven = () => {
                         </div>
                     </div>
                     <div className=' w-full sm:w-1/2 lg:w-1/3 px-3 mt-5 sm:mt-0'>
-                        <div className='border-[1px] max-w-[440px] mx-auto lg:mx-0 border-solid border-snow_drift_light bg-[#1616168A] rounded-[24px] overflow-hidden aiDrivencard h-full'>
+                        <div className='border-[1px] max-w-[440px] mx-auto lg:mx-0 border-solid border-snow_drift_light bg-dark_red rounded-[24px] overflow-hidden aiDrivencard h-full'>
                             <div className=' max-w-[440px] max-h-[313px] rounded-tl-[24px] rounded-tr-[24px] overflow-hidden '>
                                 <img src={AIdriven2} alt="aidriven" className=' xl:w-[440px] xl:h-[313px] aidriven aiDrivenimg duration-300   ' />
                             </div>
@@ -36,7 +36,7 @@ const AiDriven = () => {
                         </div>
                     </div>
                     <div className=' w-full sm:w-1/2 lg:w-1/3 px-3 mt-5 sm:mt-6 lg:mt-0'>
-                        <div className='border-[1px] max-w-[440px] mx-auto lg:mx-0 border-solid border-snow_drift_light bg-[#1616168A] rounded-[24px] overflow-hidden aiDrivencard h-full'>
+                        <div className='border-[1px] max-w-[440px] mx-auto lg:mx-0 border-solid border-snow_drift_light bg-dark_red rounded-[24px] overflow-hidden aiDrivencard h-full'>
                             <div className=' max-w-[440px] max-h-[313px] rounded-tl-[24px] rounded-tr-[24px] overflow-hidden '>
                                 <img src={AIdriven3} alt="aidriven" className='xl:w-[440px] xl:h-[313px] aidriven aiDrivenimg duration-300 ' />
                             </div>

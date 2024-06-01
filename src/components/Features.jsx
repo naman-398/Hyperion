@@ -9,10 +9,10 @@ const Features = () => {
                 <h2 className='text-center xl:mb-[84px] lg:mb-[70px] md:mb-[55px] mb-10 font-poppins grey_gradient_to_r text-transparent bg-clip-text font-medium text-2xl 576:text-3xl sm:text-4xl md:text-xxl lg:text-5xl xl:text-vxl md:leading-[56px] leading-[36px] 576:leading-[40px] sm:leading-[46px]'>The Hyperion Features
                 </h2>
                 <div className='max-w-[1368px] mx-auto'>
-                    <div className="flex flex-row border-b-[1px] pb-12 border-b-[#1E1E1F] flex-wrap">
+                    <div className="flex flex-row border-b-[1px] pb-12 border-b-dark_voilet flex-wrap">
                         {featuredata.map((obj, index) => {
                             return (
-                                <div className={`${index == 0 ? " max-[1200px]:flex items-center justify-center min-[1200px]:w-[32.3%] w-full md:w-[50%]  md:pr-3" : index == 1 ? "md:border-l-[1px] border-l-[#1E1E1F] min-[1200px]:border-r-[1px] mt-12 md:mt-0 flex md:pl-3 min-[1200px]:px-3 items-center justify-center min-[1200px]:w-[35.4%] w-full md:w-[50%] border-r-[#1E1E1F]" : index == 2 ? " min-[1200px]:w-[32.3%] w-full min-[1200px]:pl-3 flex items-center justify-center max-[1200px]:mt-12 min-[1200px]:items-end flex-col" : ""} h-full`}>
+                                <div className={`${index == 0 ? " max-[1200px]:flex items-center justify-center min-[1200px]:w-[32.3%] w-full md:w-[50%]  md:pr-3" : index == 1 ? "md:border-l-[1px] border-l-dark_voilet min-[1200px]:border-r-[1px] mt-12 md:mt-0 flex md:pl-3 min-[1200px]:px-3 items-center justify-center min-[1200px]:w-[35.4%] w-full md:w-[50%] border-r-dark_voilet" : index == 2 ? " min-[1200px]:w-[32.3%] w-full min-[1200px]:pl-3 flex items-center justify-center max-[1200px]:mt-12 min-[1200px]:items-end flex-col" : ""} h-full`}>
                                     <div className=" min-[1200px]:max-w-[392px] max-w-[450px] group">
                                         <div className=" overflow-hidden rounded-[32px]">
                                             <img src={obj.img} alt="img" className="w-[392px] h-[294px] group-hover:scale-110 duration-300" />
@@ -32,7 +32,7 @@ const Features = () => {
                                 <div className=" max-w-[392px] xl:mt-12 lg:mt-10 md:mt-8 mt-6 max-h-[294px] overflow-hidden rounded-3xl border-[1px] border-solid  border-snow_drift_light"><img src={graphimg} alt="img" className=" w-full h-full aiDrivenimg duration-300 " /></div>
                             </div>
                         </div>
-                        <div className="min-[1380px]:w-[67.7%] aiDrivencard min-[1380px]:pl-12 min-[1380px]:border-l-[1px] border-l-[#1E1E1F]">
+                        <div className="min-[1380px]:w-[67.7%] aiDrivencard min-[1380px]:pl-12 min-[1380px]:border-l-[1px] border-l-dark_voilet">
                             <div className=" flex flex-col lg:flex-row md:gap-10 gap-6 items-center justify-center lg:gap-12">
                                 <div className="w-full max-w-[392px] max-h-[294px] md:max-h-[370px] lg:min-h-[520px] h-full overflow-hidden rounded-3xl border-[1px] border-solid  border-snow_drift_light"><img src={graphimg2} alt="img" className=" lg:min-h-[520px] w-full h-full aiDrivenimg duration-300 " /></div>
                                 <div className=" flex flex-col max-w-[600px]">

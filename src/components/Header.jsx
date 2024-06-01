@@ -4,7 +4,7 @@ import HeroBig from "../assets/images/webp/hero-big.webp";
 import headerelipse from "../assets/images/webp/header-elipse.webp";
 import headerelipse2 from "../assets/images/webp/header-elispe2.webp";
 import PrimaryButton from './common/PrimaryButton';
-const Herosection = () => {
+const Header = () => {
     return (
         <div className=' flex flex-col min-h-screen  bg-center bg-cover md:bg-100% bg-no-repeat  bg-[url(./assets/images/webp/hero-bg.webp)] '>
             <div className=' relative z-[3]'>
@@ -37,4 +37,4 @@ const Herosection = () => {
     )
 }
 
-export default Herosection
+export default Header

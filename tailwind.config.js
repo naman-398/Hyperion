@@ -17,6 +17,10 @@ module.exports = {
         light_night: '#FFFFFF0A',
         dark_night: '#FFFFFF29',
         night_sky: '#232323',
+        night_blue: '#191A1B3B',
+        dark_red: '#1616168A',
+        light_red:'#1F1F1F8A',
+        dark_voilet:'#1E1E1F',
       },
       backgroundImage: {
         yellow_gradient_to_r: 'linear-gradient(97.23deg, #F2C922 -33.73%, #B8860B 100.34%)',
